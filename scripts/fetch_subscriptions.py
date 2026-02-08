@@ -4,6 +4,7 @@ import argparse
 from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.error import HTTPError, URLError
+from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
@@ -35,6 +36,21 @@ TARGETS = {
 }
 
 
+def build_headers(url: str) -> dict[str, str]:
+    parts = urlsplit(url)
+    referer = f"{parts.scheme}://{parts.netloc}/"
+    return {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/122.0.0.0 Safari/537.36"
+        ),
+        "Accept": "*/*",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Referer": referer,
+    }
+
+
 def fetch_with_fallback(name: str, url_template: str, tz: str, max_days: int) -> tuple[str, bytes]:
     today = datetime.now(ZoneInfo(tz)).date()
     last_error: Exception | None = None
@@ -43,7 +59,7 @@ def fetch_with_fallback(name: str, url_template: str, tz: str, max_days: int) ->
         day = today - timedelta(days=offset)
         date_str = day.strftime("%Y%m%d")
         url = url_template.format(date=date_str)
-        request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        request = Request(url, headers=build_headers(url))
 
         try:
             with urlopen(request, timeout=30) as response:
@@ -53,7 +69,7 @@ def fetch_with_fallback(name: str, url_template: str, tz: str, max_days: int) ->
             return url, content
         except HTTPError as exc:
             last_error = exc
-            if exc.code == 404:
+            if exc.code in {404, 406}:
                 continue
             break
         except URLError as exc:
@@ -77,10 +93,23 @@ def main() -> None:
     parser.add_argument("--days", type=int, default=3)
     args = parser.parse_args()
 
+    successes = 0
+    failures: list[str] = []
+
     for name, meta in TARGETS.items():
-        url, content = fetch_with_fallback(name, meta["url"], args.tz, args.days)
+        try:
+            url, content = fetch_with_fallback(name, meta["url"], args.tz, args.days)
+        except Exception as exc:
+            failures.append(f"{name}: {exc}")
+            print(f"WARN: {name} fetch failed: {exc}")
+            continue
+
         write_bytes(meta["output"], content)
+        successes += 1
         print(f"{name} fetched from {url} -> {meta['output']}")
+
+    if successes == 0:
+        raise RuntimeError("All sources failed: " + "; ".join(failures))
 
 
 if __name__ == "__main__":
