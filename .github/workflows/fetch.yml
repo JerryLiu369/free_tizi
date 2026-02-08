@@ -31,6 +31,6 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git add subscriptions/clash.yaml subscriptions/v2ray.txt
+          git add subscriptions/clash1.yaml subscriptions/v2ray1.txt subscriptions/clash2.yaml subscriptions/v2ray2.txt
           git commit -m "Update subscriptions"
           git push

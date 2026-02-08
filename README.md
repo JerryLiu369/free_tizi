@@ -11,9 +11,16 @@
 
 直接复制下面的链接，添加到软件的「订阅管理」处即可更新：
 
+源 1：
 ```text
-Clash: https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash.yaml
-V2Ray: https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray.txt
+Clash: https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash1.yaml
+V2Ray: https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray1.txt
+```
+
+源 2：
+```text
+Clash: https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash2.yaml
+V2Ray: https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray2.txt
 ```
 
 > ⚠️ 声明：本项目仅供学习交流使用，节点源自互联网公开分享，请勿用于非法用途。

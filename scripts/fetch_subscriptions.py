@@ -7,25 +7,34 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
-BASE_URLS = {
-    "clash": "https://yoyapai.com/mianfeijiedian/{date}-clash-vpnmfjiedian-yoyapai.com.yaml",
-    "v2ray": "https://yoyapai.com/mianfeijiedian/{date}-ssr-v2ray-vpnjiedian-yoyapai.com.txt",
+TARGETS = {
+    "clash1": {
+        "url": "https://yoyapai.com/mianfeijiedian/{date}-clash-vpnmfjiedian-yoyapai.com.yaml",
+        "output": "subscriptions/clash1.yaml",
+    },
+    "v2ray1": {
+        "url": "https://yoyapai.com/mianfeijiedian/{date}-ssr-v2ray-vpnjiedian-yoyapai.com.txt",
+        "output": "subscriptions/v2ray1.txt",
+    },
+    "clash2": {
+        "url": "http://shareclash.cczzuu.top/node/{date}-clash.yaml",
+        "output": "subscriptions/clash2.yaml",
+    },
+    "v2ray2": {
+        "url": "http://shareclash.cczzuu.top/node/{date}-v2ray.txt",
+        "output": "subscriptions/v2ray2.txt",
+    },
 }
 
-OUTPUT_PATHS = {
-    "clash": "subscriptions/clash.yaml",
-    "v2ray": "subscriptions/v2ray.txt",
-}
 
-
-def fetch_with_fallback(kind: str, tz: str, max_days: int) -> tuple[str, bytes]:
+def fetch_with_fallback(name: str, url_template: str, tz: str, max_days: int) -> tuple[str, bytes]:
     today = datetime.now(ZoneInfo(tz)).date()
     last_error: Exception | None = None
 
     for offset in range(max_days):
         day = today - timedelta(days=offset)
         date_str = day.strftime("%Y%m%d")
-        url = BASE_URLS[kind].format(date=date_str)
+        url = url_template.format(date=date_str)
         request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
 
         try:
@@ -44,7 +53,7 @@ def fetch_with_fallback(kind: str, tz: str, max_days: int) -> tuple[str, bytes]:
             break
 
     raise RuntimeError(
-        f"Failed to fetch {kind} after {max_days} days. Last error: {last_error}"
+        f"Failed to fetch {name} after {max_days} days. Last error: {last_error}"
     )
 
 
@@ -60,10 +69,10 @@ def main() -> None:
     parser.add_argument("--days", type=int, default=3)
     args = parser.parse_args()
 
-    for kind in ("clash", "v2ray"):
-        url, content = fetch_with_fallback(kind, args.tz, args.days)
-        write_bytes(OUTPUT_PATHS[kind], content)
-        print(f"{kind} fetched from {url} -> {OUTPUT_PATHS[kind]}")
+    for name, meta in TARGETS.items():
+        url, content = fetch_with_fallback(name, meta["url"], args.tz, args.days)
+        write_bytes(meta["output"], content)
+        print(f"{name} fetched from {url} -> {meta['output']}")
 
 
 if __name__ == "__main__":
