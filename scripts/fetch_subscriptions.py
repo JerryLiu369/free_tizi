@@ -34,11 +34,11 @@ TARGETS = {
         "output": "subscriptions/v2ray3.txt",
     },
     "clash4": {
-        "url": "https://node.clashnodes.com/uploads/{year}/{month}/0-{date}.yaml",
+        "url": "https://node.clashn.net/uploads/{year}/{month}/1-{date}.yaml",
         "output": "subscriptions/clash4.yaml",
     },
     "v2ray4": {
-        "url": "https://node.clashnodes.com/uploads/{year}/{month}/0-{date}.txt",
+        "url": "https://node.clashn.net/uploads/{year}/{month}/1-{date}.txt",
         "output": "subscriptions/v2ray4.txt",
     },
 }
