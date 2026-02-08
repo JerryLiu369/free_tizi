@@ -4,7 +4,7 @@
 ![Update](https://img.shields.io/badge/update-every%206h-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-⭐ 每天 4 次自动更新 | 🌐 3 个稳定订阅源 | 📱 全平台支持 | 💯 完全免费 | 🎯 科学上网 | 🔓 翻墙VPN
+⭐ 每天 4 次自动更新 | 🌐 4 个稳定订阅源 | 📱 全平台支持 | 💯 完全免费 | 🎯 科学上网 | 🔓 翻墙VPN
 
 > **免费节点、clash订阅链接、v2ray订阅、clash科学上网、免费clash节点、免费梯子、clash教程、clash for windows、免费公益节点、最新免费节点订阅地址每日更新**
 
@@ -13,7 +13,7 @@
 ## ✨ 特色功能
 
 - 🔄 **每 6 小时自动更新** - GitHub Actions 定时抓取最新免费节点，自动替换失效节点
-- 🎯 **3 个稳定订阅源** - 多源备份，自动回退机制，clash/v2ray 双协议支持
+- 🎯 **4 个稳定订阅源** - 多源备份，自动回退机制，clash/v2ray 双协议支持
 - 📱 **全平台客户端支持** - Windows/macOS/Android/iOS/Linux 全覆盖
 - 🆓 **完全免费公益** - 无需注册，无需付费，免费梯子直接使用
 - 🚀 **一键订阅翻墙** - 复制订阅链接粘贴即可，小白也能轻松科学上网
@@ -21,7 +21,7 @@
 
 ---
 
-## � 快速开始 - 三步轻松翻墙
+## 🚀 快速开始 - 三步轻松翻墙
 
 ### 新手教程：三步即可科学上网
 
@@ -34,7 +34,7 @@
 
 ---
 
-## �📱 Clash/V2Ray 客户端下载
+## 📱 Clash/V2Ray 客户端下载
 
 | 平台 | Clash 客户端 | V2Ray 客户端 |
 |------|-------------|-------------|
@@ -67,6 +67,10 @@
 <td><b>源 3 CDN</b></td>
 <td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash3.yaml</code></td>
 </tr>
+<tr>
+<td><b>源 4 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash4.yaml</code></td>
+</tr>
 </table>
 
 <details>
@@ -77,6 +81,7 @@
 | 源 1 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash1.yaml` |
 | 源 2 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash2.yaml` |
 | 源 3 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash3.yaml` |
+| 源 4 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash4.yaml` |
 
 </details>
 
@@ -99,6 +104,10 @@
 <td><b>源 3 CDN</b></td>
 <td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray3.txt</code></td>
 </tr>
+<tr>
+<td><b>源 4 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray4.txt</code></td>
+</tr>
 </table>
 
 <details>
@@ -109,6 +118,7 @@
 | 源 1 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray1.txt` |
 | 源 2 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray2.txt` |
 | 源 3 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray3.txt` |
+| 源 4 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray4.txt` |
 
 </details>
 
@@ -121,7 +131,7 @@
 
 **A:** 
 1. **优先使用 CDN 链接**（推荐），如果不行再试 GitHub 原始链接
-2. 尝试切换其他订阅源（源 1/2/3）
+2. 尝试切换其他订阅源（源 1/2/3/4）
 3. 等待下次自动更新（每 6 小时更新一次）
 4. 检查客户端配置是否正确
 5. 如果都不行，可能是节点暂时失效，请稍后再试

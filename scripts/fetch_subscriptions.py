@@ -26,12 +26,20 @@ TARGETS = {
         "output": "subscriptions/v2ray2.txt",
     },
     "clash3": {
-        "url": "https://static.v2rayshare.net/2026/02/m{date}.yaml",
+        "url": "https://static.v2rayshare.net/{year}/{month}/m{date}.yaml",
         "output": "subscriptions/clash3.yaml",
     },
     "v2ray3": {
-        "url": "https://static.v2rayshare.net/2026/02/{date}.txt",
+        "url": "https://static.v2rayshare.net/{year}/{month}/{date}.txt",
         "output": "subscriptions/v2ray3.txt",
+    },
+    "clash4": {
+        "url": "https://node.clashnodes.com/uploads/{year}/{month}/0-{date}.yaml",
+        "output": "subscriptions/clash4.yaml",
+    },
+    "v2ray4": {
+        "url": "https://node.clashnodes.com/uploads/{year}/{month}/0-{date}.txt",
+        "output": "subscriptions/v2ray4.txt",
     },
 }
 
@@ -58,7 +66,9 @@ def fetch_with_fallback(name: str, url_template: str, tz: str, max_days: int) ->
     for offset in range(max_days):
         day = today - timedelta(days=offset)
         date_str = day.strftime("%Y%m%d")
-        url = url_template.format(date=date_str)
+        year_str = day.strftime("%Y")
+        month_str = day.strftime("%m")
+        url = url_template.format(date=date_str, year=year_str, month=month_str)
         request = Request(url, headers=build_headers(url))
 
         try:
