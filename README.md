@@ -1,24 +1,40 @@
-# 🚀 免费节点分享 | 每日自动更新 | Clash/V2Ray 订阅 🔥
+# 🚀 免费机场 免费梯子 | 每6小时更新 | Clash/V2Ray 免费节点订阅 🔥
 
 ![GitHub stars](https://img.shields.io/github/stars/JerryLiu369/free_tizi?style=social)
 ![Update](https://img.shields.io/badge/update-every%206h-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-⭐ 每天 4 次自动更新 | 🌐 3 个订阅源 | 📱 全平台支持 | 💯 完全免费
+⭐ 每天 4 次自动更新 | 🌐 3 个稳定订阅源 | 📱 全平台支持 | 💯 完全免费 | 🎯 科学上网 | 🔓 翻墙VPN
+
+> **免费节点、clash订阅链接、v2ray订阅、clash科学上网、免费clash节点、免费梯子、clash教程、clash for windows、免费公益节点、最新免费节点订阅地址每日更新**
 
 ---
 
-## ✨ 特色
+## ✨ 特色功能
 
-- 🔄 **每 6 小时自动更新** - GitHub Actions 定时抓取，自动替换失效节点
-- 🎯 **3 个稳定订阅源** - 多源备份，自动回退机制，确保可用性
-- 📱 **全平台支持** - Windows/macOS/Android/iOS/Linux 全覆盖
-- 🆓 **完全免费** - 无需注册，无需付费，直接使用
-- 🚀 **一键订阅** - 复制链接粘贴即可，小白也能用
+- 🔄 **每 6 小时自动更新** - GitHub Actions 定时抓取最新免费节点，自动替换失效节点
+- 🎯 **3 个稳定订阅源** - 多源备份，自动回退机制，clash/v2ray 双协议支持
+- 📱 **全平台客户端支持** - Windows/macOS/Android/iOS/Linux 全覆盖
+- 🆓 **完全免费公益** - 无需注册，无需付费，免费梯子直接使用
+- 🚀 **一键订阅翻墙** - 复制订阅链接粘贴即可，小白也能轻松科学上网
+- 🌏 **CDN 加速** - jsDelivr 全球 CDN，国内访问更快更稳定
 
 ---
 
-## 📱 客户端下载
+## � 快速开始 - 三步轻松翻墙
+
+### 新手教程：三步即可科学上网
+
+**1️⃣ 下载客户端** - 从下面表格选择适合你系统的 Clash 或 V2Ray 客户端  
+**2️⃣ 复制订阅链接** - 选择任意 CDN 订阅源（源 1/2/3）  
+**3️⃣ 导入订阅** - 粘贴到客户端的「订阅管理」或「配置」中
+
+> 💡 **首次使用？** 查看 [iOS 详细教程](iOS-TUTORIAL.md) | 不懂如何使用 Clash？参考 clash for windows 教程  
+> 🎬 **视频教程**：[Clash 使用教程](https://www.youtube.com/results?search_query=clash+%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B) | [V2Ray 使用教程](https://www.youtube.com/results?search_query=v2ray+%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
+
+---
+
+## �📱 Clash/V2Ray 客户端下载
 
 | 平台 | Clash 客户端 | V2Ray 客户端 |
 |------|-------------|-------------|
@@ -30,45 +46,71 @@
 
 ---
 
-## 📡 订阅地址（点击复制）
+## 📡 免费订阅地址（clash订阅链接 | v2ray订阅链接）
 
-### 🎨 Clash 订阅
+### 🎨 Clash 免费订阅链接
 
-> 把下面任意一个链接复制到 Clash 客户端的「订阅」或「配置」中
-
-<table>
-<tr>
-<td width="80"><b>源 1</b></td>
-<td><code>https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash1.yaml</code></td>
-</tr>
-<tr>
-<td><b>源 2</b></td>
-<td><code>https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash2.yaml</code></td>
-</tr>
-<tr>
-<td><b>源 3</b></td>
-<td><code>https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash3.yaml</code></td>
-</tr>
-</table>
-
-### 🛰️ V2Ray 订阅
-
-> 把下面任意一个链接复制到 V2Ray 客户端（如 v2rayN、v2rayNG）的「订阅管理」中
+> 把下面任意一个 clash 订阅链接复制到 Clash 客户端（Clash for Windows、ClashX、Clash Meta 等）的「订阅」或「配置」中
+> 
+> 💡 **推荐使用 CDN 链接**（更快更稳定），支持科学上网、翻墙，如遇问题可切换到 GitHub 原始链接
 
 <table>
 <tr>
-<td width="80"><b>源 1</b></td>
-<td><code>https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray1.txt</code></td>
+<td width="80"><b>源 1 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash1.yaml</code></td>
 </tr>
 <tr>
-<td><b>源 2</b></td>
-<td><code>https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray2.txt</code></td>
+<td><b>源 2 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash2.yaml</code></td>
 </tr>
 <tr>
-<td><b>源 3</b></td>
-<td><code>https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray3.txt</code></td>
+<td><b>源 3 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash3.yaml</code></td>
 </tr>
 </table>
+
+<details>
+<summary>📦 <b>GitHub 原始链接（备用）</b></summary>
+
+| 源 | 链接 |
+|----|------|
+| 源 1 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash1.yaml` |
+| 源 2 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash2.yaml` |
+| 源 3 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash3.yaml` |
+
+</details>
+
+### 🛰️ V2Ray 免费订阅链接
+
+> 把下面任意一个 v2ray 订阅链接复制到 V2Ray 客户端（v2rayN、v2rayNG、V2Box 等）的「订阅管理」中
+> 
+> 💡 **推荐使用 CDN 链接**（更快更稳定），支持科学上网、免费翻墙，如遇问题可切换到 GitHub 原始链接
+
+<table>
+<tr>
+<td width="80"><b>源 1 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray1.txt</code></td>
+</tr>
+<tr>
+<td><b>源 2 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray2.txt</code></td>
+</tr>
+<tr>
+<td><b>源 3 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray3.txt</code></td>
+</tr>
+</table>
+
+<details>
+<summary>📦 <b>GitHub 原始链接（备用）</b></summary>
+
+| 源 | 链接 |
+|----|------|
+| 源 1 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray1.txt` |
+| 源 2 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray2.txt` |
+| 源 3 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray3.txt` |
+
+</details>
 
 ---
 
@@ -78,10 +120,11 @@
 <summary><b>Q: 为什么连不上？</b></summary>
 
 **A:** 
-1. 尝试切换其他订阅源（源 1/2/3）
-2. 等待下次自动更新（每 6 小时更新一次）
-3. 检查客户端配置是否正确
-4. 部分地区可能对 GitHub raw 链接有限制
+1. **优先使用 CDN 链接**（推荐），如果不行再试 GitHub 原始链接
+2. 尝试切换其他订阅源（源 1/2/3）
+3. 等待下次自动更新（每 6 小时更新一次）
+4. 检查客户端配置是否正确
+5. 如果都不行，可能是节点暂时失效，请稍后再试
 </details>
 
 <details>
