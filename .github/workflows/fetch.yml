@@ -1,0 +1,36 @@
+name: Fetch free subscriptions
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Fetch subscriptions
+        run: python scripts/fetch_subscriptions.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git add subscriptions/clash.yaml subscriptions/v2ray.txt
+          git commit -m "Update subscriptions"
+          git push
