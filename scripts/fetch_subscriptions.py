@@ -24,6 +24,14 @@ TARGETS = {
         "url": "http://shareclash.cczzuu.top/node/{date}-v2ray.txt",
         "output": "subscriptions/v2ray2.txt",
     },
+    "clash3": {
+        "url": "https://static.v2rayshare.net/2026/02/m{date}.yaml",
+        "output": "subscriptions/clash3.yaml",
+    },
+    "v2ray3": {
+        "url": "https://static.v2rayshare.net/2026/02/{date}.txt",
+        "output": "subscriptions/v2ray3.txt",
+    },
 }
 
 
