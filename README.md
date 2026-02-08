@@ -15,12 +15,25 @@
 
 ## 📋 订阅地址
 
-把下面的链接复制到你的 Clash 或 V2Ray 客户端的「订阅管理」就能用。如果某个源失效，建议多试试其他源。
+### 🎨 Clash 用户
 
-| 源 | Clash 订阅链接 | V2Ray 订阅链接 |
-|----|----------------|----------------|
-| **源 1** | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash1.yaml | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray1.txt |
-| **源 2** | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash2.yaml | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray2.txt |
-| **源 3** | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash3.yaml | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray3.txt |
+把下面任意一个链接复制到 Clash 客户端的「订阅」或「配置」中，即可使用：
+
+| 源 | 链接 |
+|----|------|
+| 源 1 | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash1.yaml |
+| 源 2 | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash2.yaml |
+| 源 3 | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash3.yaml |
+
+### 🛰️ V2Ray 用户
+
+把下面任意一个链接复制到 V2Ray 客户端（如 v2rayN、v2rayNG）的「订阅管理」中，即可使用：
+
+| 源 | 链接 |
+|----|------|
+| 源 1 | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray1.txt |
+| 源 2 | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray2.txt |
+| 源 3 | https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray3.txt |
 
 > ⚠️ 声明：本项目仅供学习交流使用，节点源自互联网公开分享，请勿用于非法用途。
+> 💡 **小提示**：如果一个源不能用，可以试试其他源。每 6 小时自动更新一次。
