@@ -3014,337 +3014,7 @@ proxies:
     path: /
     headers:
       Host: dev.twistsparrow.xyz
-- name: GB英国(mibei77.com 米贝节点分享)
-  server: bgty6.852224.xyz
-  port: 443
-  type: trojan
-  password: c52d2de2-fc6d-490c-8421-132f87615736
-  sni: bgty6.852224.xyz
-  skip-cert-verify: true
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 2
-  server: ilop.uk2033.ccwu.cc
-  port: 443
-  type: trojan
-  password: 1338f666-2fcc-4538-bc29-1ebf89624383
-  sni: ilop.uk2033.ccwu.cc
-  skip-cert-verify: true
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 3
-  server: 82.198.246.97
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 5
-  server: admin.c2.havij.co
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: kaQH3hGdcP80XEDI
-  udp: true
-- name: RU俄罗斯(mibei77.com 米贝节点分享)
-  server: 109.234.211.66
-  port: 8443
-  type: trojan
-  password: trojan
-  skip-cert-verify: true
-  udp: true
 - name: US美国(mibei77.com 米贝节点分享)
-  server: ghj.ok7.ccwu.cc
-  port: 443
-  type: trojan
-  password: 1338f666-2fcc-4538-bc29-1ebf89624383
-  sni: ghj.ok7.ccwu.cc
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 2
-  server: lop.bb3.indevs.in
-  port: 80
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-  ws-headers:
-    Host: lop.bb3.indevs.in
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 3
-  server: u8.ok8.ccwu.cc
-  port: 443
-  type: trojan
-  password: 1338f666-2fcc-4538-bc29-1ebf89624383
-  sni: u8.ok8.ccwu.cc
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 4
-  server: ttt6.006660666.xyz
-  port: 443
-  type: trojan
-  password: 795ef99b-3260-4d18-ac98-5130bba9f168
-  sni: ttt6.006660666.xyz
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 5
-  server: nextmi.hajmyab.ir
-  port: 2053
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: app.hajmyab.ir
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 6
-  server: chengbai02.ascwt179.com
-  port: 13223
-  type: ss
-  cipher: aes-128-gcm
-  password: JVrsLLN1tkN8oXZO
-  udp: true
-- name: CA加拿大(mibei77.com 米贝节点分享)
-  server: mko.bb1.indevs.in
-  port: 80
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-  ws-headers:
-    Host: mko.bb1.indevs.in
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 8
-  server: nnmk.tt7.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: nnmk.tt7.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 9
-  server: jjmk.wc2.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: jjmk.wc2.ccwu.cc
-  udp: true
-- name: FR法国(mibei77.com 米贝节点分享)
-  server: v30.hdacd.com
-  port: 30830
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 11
-  server: 178.17.61.67
-  port: 5790
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: qS3skwmolrQ70q842irQD0
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 12
-  server: mmkio.wc5.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: mmkio.wc5.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 13
-  server: bnmj.wc6.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: bnmj.wc6.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 14
-  server: yhj.tc1.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: yhj.tc1.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 15
-  server: nmj.wc8.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: nmj.wc8.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 16
-  server: uu.852224.xyz
-  port: 443
-  type: trojan
-  password: b020865b-7404-4894-ba65-a7414b10cda3
-  sni: uu.852224.xyz
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 17
-  server: nnmk.bb5.indevs.in
-  port: 80
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-  ws-headers:
-    Host: nnmk.bb5.indevs.in
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 18
-  server: bbnj.wc9.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: bbnj.wc9.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 19
-  server: v12.hdacd.com
-  port: 30812
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 20
-  server: nju.bb4.indevs.in
-  port: 80
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-  ws-headers:
-    Host: nju.bb4.indevs.in
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 21
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: AZERB.NET
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 22
-  server: bbbnmki.kk7.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: bbbnmki.kk7.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 34
-  server: mmkio.tc6.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: mmkio.tc6.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 38
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  ws-headers:
-    Host: AZERB.NET
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 39
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
@@ -3358,21 +3028,7 @@ proxies:
   ws-headers:
     Host: TABRIZ.NET
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 40
-  server: 2001:bc8:32d7:302::11
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  ws-headers:
-    Host: Azerb.NET
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 41
+- name: US美国(mibei77.com 米贝节点分享) 2
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
@@ -3382,11 +3038,11 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: ?ed=2048
+  ws-path: /
   ws-headers:
-    Host: 2001:bc8:32d7:302::10
+    Host: AZERB.NET
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 42
+- name: US美国(mibei77.com 米贝节点分享) 3
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
@@ -3400,77 +3056,298 @@ proxies:
   ws-headers:
     Host: 2001:bc8:32d7:302::10
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 43
-  server: 2001:bc8:32d7:302::10
-  port: 44579
+- name: US美国(mibei77.com 米贝节点分享) 4
+  server: bbbnmki.kk7.ccwu.cc
+  port: 80
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
   ws-headers:
-    Host: AZERB.NET
+    Host: bbbnmki.kk7.ccwu.cc
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 44
-  server: 2001:bc8:32d7:302::10
-  port: 44579
+- name: US美国(mibei77.com 米贝节点分享) 5
+  server: dll.avaaaal.ir
+  port: 8443
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: 2001:bc8:32d7:302::10
+    Host: cdge.avaaaal.ir
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 45
-  server: 2001:bc8:32d7:302::10
-  port: 44579
+- name: HK香港(mibei77.com 米贝节点分享)
+  server: nnmk.bb5.indevs.in
+  port: 80
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /?ed=2048
+  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
   ws-headers:
-    Host: 2001:bc8:32d7:302::10
+    Host: nnmk.bb5.indevs.in
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 46
-  server: 2001:bc8:32d7:302::17
-  port: 44579
+- name: US美国(mibei77.com 米贝节点分享) 6
+  server: bg.ae1.us.ci
+  port: 80
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
   ws-headers:
-    Host: AZERB.NET
+    Host: bg.ae1.us.ci
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 47
-  server: 2001:bc8:32d7:302::10
-  port: 44579
+- name: FR法国(mibei77.com 米贝节点分享)
+  server: njui.ae1autumn.indevs.in
+  port: 80
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
   ws-headers:
-    Host: 2001:bc8:32d7:302::10
+    Host: njui.ae1autumn.indevs.in
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 48
+- name: SG新加坡(mibei77.com 米贝节点分享)
+  server: vc.fly.dev
+  port: 443
+  type: vmess
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  alterId: 32
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /vc
+  ws-headers:
+    Host: vc.fly.dev
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 7
+  server: bju.89890604.xyz
+  port: 443
+  type: trojan
+  password: c558328b-eb46-424c-b9e0-574770f0b072
+  sni: bju.89890604.xyz
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 8
+  server: 1qw.ae1autumn.cc.cd
+  port: 80
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /YsmRouA9ZbxgW4
+  ws-headers:
+    Host: 1qw.ae1autumn.cc.cd
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享)
+  server: gt6.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: gt6.ae1.us.ci
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 2
+  server: zzs.222856.xyz
+  port: 443
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: zzs.222856.xyz
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 9
+  server: gbnh.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: gbnh.ae1.us.ci
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 3
+  server: nju.bb4.indevs.in
+  port: 80
+  type: vmess
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
+  ws-headers:
+    Host: nju.bb4.indevs.in
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 10
+  server: u8.ok8.ccwu.cc
+  port: 443
+  type: trojan
+  password: 1338f666-2fcc-4538-bc29-1ebf89624383
+  sni: u8.ok8.ccwu.cc
+  skip-cert-verify: true
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 3
+  server: vfgt.99890604.xyz
+  port: 443
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: vfgt.99890604.xyz
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 4
+  server: ilop.uk2033.ccwu.cc
+  port: 443
+  type: trojan
+  password: 1338f666-2fcc-4538-bc29-1ebf89624383
+  sni: ilop.uk2033.ccwu.cc
+  skip-cert-verify: true
+  udp: true
+- name: TW台湾(mibei77.com 米贝节点分享)
+  server: ldu.izenny.com
+  port: 55936
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 5
+  server: bgty6.852224.xyz
+  port: 443
+  type: trojan
+  password: c52d2de2-fc6d-490c-8421-132f87615736
+  sni: bgty6.852224.xyz
+  skip-cert-verify: true
+  udp: true
+- name: FR法国(mibei77.com 米贝节点分享) 2
+  server: vbh.ae1autumn.cc.cd
+  port: 80
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /YsmRouA9ZbxgW4
+  ws-headers:
+    Host: vbh.ae1autumn.cc.cd
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 14
+  server: dfg.ae1autumn.cc.cd
+  port: 80
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /YsmRouA9ZbxgW4
+  ws-headers:
+    Host: dfg.ae1autumn.cc.cd
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 15
+  server: ju8.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: ju8.ae1.us.ci
+  udp: true
+- name: FR法国(mibei77.com 米贝节点分享) 3
+  server: dvgt.zem.indevs.in
+  port: 80
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: dvgt.zem.indevs.in
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 16
+  server: mko.bb1.indevs.in
+  port: 80
+  type: vmess
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
+  ws-headers:
+    Host: mko.bb1.indevs.in
+  udp: true
+- name: FR法国(mibei77.com 米贝节点分享) 4
+  server: jjkm.zem.indevs.in
+  port: 80
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: jjkm.zem.indevs.in
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 17
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
@@ -3484,8 +3361,407 @@ proxies:
   ws-headers:
     Host: 2001:bc8:32d7:302::10
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 49
-  server: 2001:bc8:32d7:302::14
+- name: US美国(mibei77.com 米贝节点分享) 19
+  server: ghj.ok7.ccwu.cc
+  port: 443
+  type: trojan
+  password: 1338f666-2fcc-4538-bc29-1ebf89624383
+  sni: ghj.ok7.ccwu.cc
+  skip-cert-verify: true
+  udp: true
+- name: FR法国(mibei77.com 米贝节点分享) 5
+  server: 3.ae1autumn.indevs.in
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: 3.ae1autumn.indevs.in
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 6
+  server: nhj4r.huangshang.site
+  port: 443
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: nhj4r.huangshang.site
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 7
+  server: o0.666470.xyz
+  port: 443
+  type: trojan
+  password: c558328b-eb46-424c-b9e0-574770f0b072
+  sni: o0.666470.xyz
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 20
+  server: jjki.ae1autumn.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: jjki.ae1autumn.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 21
+  server: uu9.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: uu9.ae1.us.ci
+  udp: true
+- name: TW台湾(mibei77.com 米贝节点分享) 2
+  server: ldu.izenny.com
+  port: 10589
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 22
+  server: l98.222560.xyz
+  port: 443
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: l98.222560.xyz
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 6
+  server: lop.bb3.indevs.in
+  port: 80
+  type: vmess
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
+  ws-headers:
+    Host: lop.bb3.indevs.in
+  udp: true
+- name: AU澳大利亚(mibei77.com 米贝节点分享)
+  server: v24.hdacd.com
+  port: 30824
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 23
+  server: hhjui.222769.xyz
+  port: 443
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /YsmRouA9ZbxgW4
+  ws-headers:
+    Host: hhjui.222769.xyz
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 25
+  server: mmkio.tc6.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: mmkio.tc6.ccwu.cc
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 26
+  server: njk.222560.xyz
+  port: 443
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /YsmRouA9ZbxgW4
+  ws-headers:
+    Host: njk.222560.xyz
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 27
+  server: rgt.ae1autumn.dpdns.org
+  port: 80
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /YsmRouA9ZbxgW4
+  ws-headers:
+    Host: rgt.ae1autumn.dpdns.org
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 28
+  server: ko0.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: ko0.ae1.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 29
+  server: nhju.ae1autumn.indevs.in
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: nhju.ae1autumn.indevs.in
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 30
+  server: bnmj.wc6.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: bnmj.wc6.ccwu.cc
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 31
+  server: b6.dddct.us.ci
+  port: 443
+  type: vmess
+  uuid: 4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /E3MEctoKyZkI4BWzwNzcYz
+  ws-headers:
+    Host: b6.dddct.us.ci
+  udp: true
+- name: FR法国(mibei77.com 米贝节点分享) 6
+  server: jj90.ae1autumn.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: jj90.ae1autumn.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 32
+  server: hju.ae1autumn.cc.cd
+  port: 80
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /YsmRouA9ZbxgW4
+  ws-headers:
+    Host: hju.ae1autumn.cc.cd
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 34
+  server: ldu.izenny.com
+  port: 18140
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 8
+  server: ki9.666470.xyz
+  port: 443
+  type: trojan
+  password: c558328b-eb46-424c-b9e0-574770f0b072
+  sni: ki9.666470.xyz
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 36
+  server: nnmk.tt7.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: nnmk.tt7.ccwu.cc
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 37
+  server: ldu.izenny.com
+  port: 57927
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 39
+  server: cdfr.ae1autumn.dpdns.org
+  port: 443
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /YsmRouA9ZbxgW4
+  ws-headers:
+    Host: cdfr.ae1autumn.dpdns.org
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 40
+  server: mmko.tt0.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: mmko.tt0.ccwu.cc
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 41
+  server: nextmi.hajmyab.ir
+  port: 2053
+  type: vmess
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: app.hajmyab.ir
+  udp: true
+- name: NL荷兰(mibei77.com 米贝节点分享)
+  server: bnhy7.986986.shop
+  port: 443
+  type: trojan
+  password: 4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce
+  sni: bnhy7.986986.shop
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 44
+  server: bghy.ae1autumn.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: bghy.ae1autumn.us.ci
+  udp: true
+- name: NL荷兰(mibei77.com 米贝节点分享) 2
+  server: nj.222856.xyz
+  port: 443
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: nj.222856.xyz
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 46
+  server: jjk.ae1autumn.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: jjk.ae1autumn.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 47
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?ed=2048
+  ws-headers:
+    Host: 2001:bc8:32d7:302::10
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 48
+  server: 2001:bc8:32d7:302::11
   port: 44579
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -3497,6 +3773,34 @@ proxies:
   ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
   ws-headers:
     Host: TABRIZ.NET
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 49
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: ?ed=2048
+  ws-headers:
+    Host: 2001:bc8:32d7:302::10
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 9
+  server: fvbg.ae1autumn.cc.cd
+  port: 80
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /YsmRouA9ZbxgW4
+  ws-headers:
+    Host: fvbg.ae1autumn.cc.cd
   udp: true
 - name: US美国(mibei77.com 米贝节点分享) 50
   server: 2001:bc8:32d7:302::15
@@ -3512,22 +3816,24 @@ proxies:
   ws-headers:
     Host: TURK.NET
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 53
-  server: mmko.tt0.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: US美国(mibei77.com 米贝节点分享) 51
+  server: hhju8.huangshang.site
+  port: 443
+  type: trojan
+  password: c558328b-eb46-424c-b9e0-574770f0b072
+  sni: hhju8.huangshang.site
   skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: mmko.tt0.ccwu.cc
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 61
-  server: 2001:bc8:32d7:302::11
+- name: NL荷兰(mibei77.com 米贝节点分享) 3
+  server: zzs.222856.xyz
+  port: 443
+  type: trojan
+  password: c558328b-eb46-424c-b9e0-574770f0b072
+  sni: zzs.222856.xyz
+  skip-cert-verify: true
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 11
+  server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -3538,9 +3844,124 @@ proxies:
   network: ws
   ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
   ws-headers:
-    Host: TABRIZ.NET
+    Host: AZERB.NET
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 62
+- name: US美国(mibei77.com 米贝节点分享) 52
+  server: u89.ae1autumn.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: u89.ae1autumn.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 53
+  server: gt67.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: gt67.ae1.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 54
+  server: jjmk.wc2.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: jjmk.wc2.ccwu.cc
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 55
+  server: chengbai02.ascwt179.com
+  port: 13223
+  type: ss
+  cipher: aes-128-gcm
+  password: JVrsLLN1tkN8oXZO
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 56
+  server: nnm.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: nnm.ae1.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 57
+  server: 82.198.246.97
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 58
+  server: gtm1.ktmwan.net
+  port: 12883
+  type: vmess
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: gtm1.ktmwan.net
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 59
+  server: ji9.ae1autumn.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: ji9.ae1autumn.us.ci
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 10
+  server: a89.333856.xyz
+  port: 443
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: a89.333856.xyz
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 12
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
@@ -3555,7 +3976,7 @@ proxies:
     Host: TURK1.NET.NET
   udp: true
 - name: US美国(mibei77.com 米贝节点分享) 63
-  server: 2001:bc8:32d7:302::16
+  server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -3578,29 +3999,29 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   ws-headers:
     Host: 2001:bc8:32d7:302::10
   udp: true
-- name: SG新加坡(mibei77.com 米贝节点分享)
-  server: vc.fly.dev
-  port: 443
+- name: US美国(mibei77.com 米贝节点分享) 65
+  server: 2001:bc8:32d7:302::17
+  port: 44579
   type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  alterId: 32
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /vc
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
   ws-headers:
-    Host: vc.fly.dev
+    Host: AZERB.NET
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 68
-  server: gtm1.ktmwan.net
-  port: 12883
+- name: US美国(mibei77.com 米贝节点分享) 66
+  server: 2001:bc8:32d7:302::10
+  port: 44579
   type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   alterId: 0
   cipher: auto
   tls: false
@@ -3608,7 +4029,316 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: gtm1.ktmwan.net
+    Host: 2001:bc8:32d7:302::10
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 68
+  server: 2001:bc8:32d7:302::11
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  ws-headers:
+    Host: Azerb.NET
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 69
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  ws-headers:
+    Host: 2001:bc8:32d7:302::10
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 70
+  server: 2001:bc8:32d7:302::16
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  ws-headers:
+    Host: AZERB.NET
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 11
+  server: njki.222856.xyz
+  port: 443
+  type: trojan
+  password: c558328b-eb46-424c-b9e0-574770f0b072
+  sni: njki.222856.xyz
+  skip-cert-verify: true
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 12
+  server: bghy.8900604.xyz
+  port: 443
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: bghy.8900604.xyz
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 71
+  server: 2001:bc8:32d7:302::14
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  ws-headers:
+    Host: TABRIZ.NET
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 15
+  server: bbnj.wc9.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: bbnj.wc9.ccwu.cc
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 16
+  server: mmkio.wc5.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: mmkio.wc5.ccwu.cc
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 17
+  server: v12.hdacd.com
+  port: 30812
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 72
+  server: yhj.tc1.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: yhj.tc1.ccwu.cc
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 73
+  server: nmj.wc8.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: nmj.wc8.ccwu.cc
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 74
+  server: jjki.ae1autumn.us.ci
+  port: 443
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: jjki.ae1autumn.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 75
+  server: gbnh.666470.xyz
+  port: 443
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: gbnh.666470.xyz
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 76
+  server: bhnju.666470.xyz
+  port: 443
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: bhnju.666470.xyz
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 19
+  server: 567u.666470.xyz
+  port: 443
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: 567u.666470.xyz
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 20
+  server: h7.89060004.xyz
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: h7.89060004.xyz
+  skip-cert-verify: true
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 21
+  server: 5tyu.8900604.xyz
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: 5tyu.8900604.xyz
+  skip-cert-verify: true
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 22
+  server: 3er.8900604.xyz
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: 3er.8900604.xyz
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 77
+  server: u9.89060004.xyz
+  port: 443
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: u9.89060004.xyz
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 78
+  server: r56.bb0.ccwu.cc
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: r56.bb0.ccwu.cc
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 79
+  server: bhy.89060004.xyz
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: bhy.89060004.xyz
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 80
+  server: zs.666470.xyz
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: zs.666470.xyz
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 81
+  server: nhju.ae1autumn.indevs.in
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: nhju.ae1autumn.indevs.in
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 82
+  server: 3er.8900604.xyz
+  port: 443
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: 3er.8900604.xyz
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 83
+  server: kk9.89060004.xyz
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: kk9.89060004.xyz
+  skip-cert-verify: true
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 32
+  server: v30.hdacd.com
+  port: 30830
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: RU俄罗斯(mibei77.com 米贝节点分享)
+  server: 109.234.211.66
+  port: 8443
+  type: trojan
+  password: trojan
+  skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: 🚀全球代理
@@ -3619,10 +4349,10 @@ proxy-groups:
   - ⚡️均衡负载
   - 🔯故障转移
   - 🎯全局直连
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3639,6 +4369,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
 - name: 🟢手动选择
   type: select
@@ -3715,10 +4446,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3735,6 +4466,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 💬 OpenAi
@@ -3745,10 +4477,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3765,6 +4497,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📹 油管视频
@@ -3775,10 +4508,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3795,6 +4528,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🎥 奈飞视频
@@ -3805,10 +4539,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3825,6 +4559,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📺 巴哈姆特
@@ -3835,10 +4570,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3855,6 +4590,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📺 哔哩哔哩东南亚
@@ -3865,10 +4601,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3885,6 +4621,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📺 哔哩哔哩
@@ -3895,10 +4632,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3915,6 +4652,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🌍 国外媒体
@@ -3925,10 +4663,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3945,6 +4683,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🌏 国内媒体
@@ -3955,10 +4694,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -3975,6 +4714,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📢 谷歌FCM
@@ -3985,10 +4725,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -4005,6 +4745,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: Ⓜ️ 微软Bing
@@ -4015,10 +4756,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -4035,6 +4776,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: Ⓜ️ 微软云盘
@@ -4045,10 +4787,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -4065,6 +4807,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: Ⓜ️ 微软服务
@@ -4075,10 +4818,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -4095,6 +4838,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🍎 苹果服务
@@ -4105,10 +4849,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -4125,6 +4869,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🎮 游戏平台
@@ -4135,10 +4880,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -4155,6 +4900,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🎶 网易音乐
@@ -4165,10 +4911,10 @@ proxy-groups:
   - ♻️自动选择
   - ⚡️均衡负载
   - 🔯故障转移
+  - 🇦🇺澳大利亚自动
   - 🇦🇿阿塞拜疆自动
   - 🇧🇪比利时自动
   - 🇧🇷巴西自动
-  - 🇨🇦加拿大自动
   - 🇨🇳中国自动
   - 🇩🇪德国自动
   - 🇪🇸西班牙自动
@@ -4185,6 +4931,7 @@ proxy-groups:
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🇺🇸美国自动
@@ -4259,10 +5006,10 @@ proxy-groups:
   timeout: 5000
   max-failed-times: 5
   hidden: true
-- name: 🇨🇦加拿大自动
+- name: 🇦🇺澳大利亚自动
   type: url-test
   include-all: true
-  filter: (?i)(?:🇨🇦|(?:^|[\s_-])(CA)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*CA(?=$|[\s_-])|加拿大|Canada)
+  filter: (?i)(?:🇦🇺|(?:^|[\s_-])(AU)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*AU(?=$|[\s_-])|澳大利亚|Australia)
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 1
@@ -4359,6 +5106,18 @@ proxy-groups:
   type: url-test
   include-all: true
   filter: (?i)(?:🇸🇬|(?:^|[\s_-])(SG)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*SG(?=$|[\s_-])|新加坡|Singapore)
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 1
+  strategy: consistent-hashing
+  lazy: true
+  timeout: 5000
+  max-failed-times: 5
+  hidden: true
+- name: 🇹🇼台湾自动
+  type: url-test
+  include-all: true
+  filter: (?i)(?:🇹🇼|(?:^|[\s_-])(TW)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*TW(?=$|[\s_-])|台湾|Taiwan|Tai wan)
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 1
