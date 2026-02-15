@@ -4,31 +4,28 @@
 ![Update](https://img.shields.io/badge/update-every%206h-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-⭐ 每天 4 次自动更新 | 🌐 4 个稳定订阅源 | 📱 全平台支持 | 💯 完全免费 | 🎯 科学上网 | 🔓 翻墙VPN
+免费聚合 Clash / V2Ray 订阅 — 每 6 小时自动更新，复制订阅到客户端即可上手（小白友好）。
 
-> **免费节点、clash订阅链接、v2ray订阅、clash科学上网、免费clash节点、免费梯子、clash教程、clash for windows、免费公益节点、最新免费节点订阅地址每日更新**
-
----
-
-## ✨ 特色功能
-
-- 🔄 **每 6 小时自动更新** - GitHub Actions 定时抓取最新免费节点，自动替换失效节点
-- 🎯 **4 个稳定订阅源** - 多源备份，自动回退机制，clash/v2ray 双协议支持
-- 📱 **全平台客户端支持** - Windows/macOS/Android/iOS/Linux 全覆盖
-- 🆓 **完全免费公益** - 无需注册，无需付费，免费梯子直接使用
-- 🚀 **一键订阅翻墙** - 复制订阅链接粘贴即可，小白也能轻松科学上网
-- 🌏 **CDN 加速** - jsDelivr 全球 CDN，国内访问更快更稳定
+推荐（支持作者） — Mojie（魔戒）邀请码：`oRvNpmEZ` （1 元试用） · 注册： https://mojie.kim/register?aff=oRvNpmEZ
 
 ---
 
-## 🚀 快速开始 - 三步轻松翻墙
+## ✨ 主要特点
 
-### 新手教程：三步即可科学上网
+- 每 6 小时自动抓取并回退失效源
+- Clash / V2Ray 聚合（单链接），一键导入即可使用
+- 小白友好：复制订阅 → 客户端粘贴 → 点击更新
+- 社区维护、完全免费
 
-**1️⃣ 下载客户端** - 从下面表格选择适合你系统的 Clash 或 V2Ray 客户端**2️⃣ 复制订阅链接** - 选择任意 CDN 订阅源（源 1/2/3）**3️⃣ 导入订阅** - 粘贴到客户端的「订阅管理」或「配置」中
+---
 
-> 💡 **首次使用？** 查看 [iOS 详细教程](iOS-TUTORIAL.md) | 不懂如何使用 Clash？参考 clash for windows 教程
-> 🎬 **视频教程**：[Clash 使用教程](https://www.youtube.com/results?search_query=clash+%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B) | [V2Ray 使用教程](https://www.youtube.com/results?search_query=v2ray+%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B)
+## 🚀 快速开始（30 秒）
+
+1. 下载 Clash 或 V2Ray 客户端（见下表）。
+2. 复制聚合订阅（推荐）；如需单源可在下方“GitHub 原始链接（备用）”中查看。
+3. 在客户端「订阅管理」粘贴并更新即可。
+
+iOS 新手请看： [iOS 详细教程](iOS-TUTORIAL.md)
 
 ---
 
@@ -54,28 +51,19 @@
 
 <table>
 <tr>
-<td width="80"><b>源 1 CDN</b></td>
-<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash1.yaml</code></td>
-</tr>
-<tr>
-<td><b>源 2 CDN</b></td>
-<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash2.yaml</code></td>
-</tr>
-<tr>
-<td><b>源 3 CDN</b></td>
-<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash3.yaml</code></td>
-</tr>
-<tr>
-<td><b>源 4 CDN</b></td>
-<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash4.yaml</code></td>
+<td width="80"><b>聚合 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/clash-all.yaml</code></td>
 </tr>
 </table>
+
+<p style="color:#666; font-size:0.95em; margin-top:6px;">（源 1–4 已隐藏 — 展开下方“GitHub 原始链接（备用）”查看单源）</p>
 
 <details>
 <summary>📦 <b>GitHub 原始链接（备用）</b></summary>
 
 | 源   | 链接                                                                                       |
 | ---- | ------------------------------------------------------------------------------------------ |
+| 聚合 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash-all.yaml` |
 | 源 1 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash1.yaml` |
 | 源 2 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash2.yaml` |
 | 源 3 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/clash3.yaml` |
@@ -91,28 +79,19 @@
 
 <table>
 <tr>
-<td width="80"><b>源 1 CDN</b></td>
-<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray1.txt</code></td>
-</tr>
-<tr>
-<td><b>源 2 CDN</b></td>
-<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray2.txt</code></td>
-</tr>
-<tr>
-<td><b>源 3 CDN</b></td>
-<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray3.txt</code></td>
-</tr>
-<tr>
-<td><b>源 4 CDN</b></td>
-<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray4.txt</code></td>
+<td width="80"><b>聚合 CDN</b></td>
+<td><code>https://cdn.jsdelivr.net/gh/JerryLiu369/free_tizi@main/subscriptions/v2ray-all.txt</code></td>
 </tr>
 </table>
+
+<p style="color:#666; font-size:0.95em; margin-top:6px;">（源 1–4 已隐藏 — 展开下方“GitHub 原始链接（备用）”查看单源）</p>
 
 <details>
 <summary>📦 <b>GitHub 原始链接（备用）</b></summary>
 
 | 源   | 链接                                                                                      |
 | ---- | ----------------------------------------------------------------------------------------- |
+| 聚合 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray-all.txt` |
 | 源 1 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray1.txt` |
 | 源 2 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray2.txt` |
 | 源 3 | `https://raw.githubusercontent.com/JerryLiu369/free_tizi/main/subscriptions/v2ray3.txt` |
@@ -175,24 +154,22 @@
 
 ---
 
-## 💳 推荐机场
+## 💳 推荐（支持作者）
 
-如果免费节点不稳定，可以考虑付费机场。这里推荐 **Mojie（魔戒）** 机场，特色是 **一元体验** 🎉
+想要更稳定、可长期使用的线路，可以试试 **Mojie（魔戒）** —— 新用户 **1 元试用**。
 
-### 套餐价格
+- 邀请码：`oRvNpmEZ`（注册时填入即可）
+- 点击注册： https://mojie.kim/register?aff=oRvNpmEZ  （备用： https://mojie.app/register?aff=oRvNpmEZ）
 
-| 流量          | 价格          | 特色                      |
-| ------------- | ------------- | ------------------------- |
-| **2GB** | **¥1** | 🌟 一元试用，新用户必体验 |
-| 130GB         | ¥14.9        | 流媒体解锁，一次性购买    |
-| 420GB         | ¥42          | 大流量套餐，一次性购买    |
+### 套餐速览
 
-**邀请码**：`oRvNpmEZ`
+| 流量  | 价格   | 说明       |
+| ----- | ------ | ---------- |
+| 2GB   | ¥1     | 试用       |
+| 130GB | ¥14.9  | 流媒体解锁 |
+| 420GB | ¥42    | 大流量     |
 
-[👉 点击注册 Mojie 机场](https://mojie.kim/register?aff=oRvNpmEZ)
-[👉 备用注册链接](https://mojie.app/register?aff=oRvNpmEZ)
-
-![1770544681907](image/README/1770544681907.png)
+（使用邀请码可支持项目维护）
 
 ---
 

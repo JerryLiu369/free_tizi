@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pyyaml
+
       - name: Fetch subscriptions
         run: python scripts/fetch_subscriptions.py
 
@@ -31,6 +34,6 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git add subscriptions/clash1.yaml subscriptions/v2ray1.txt subscriptions/clash2.yaml subscriptions/v2ray2.txt subscriptions/clash3.yaml subscriptions/v2ray3.txt subscriptions/clash4.yaml subscriptions/v2ray4.txt
+          git add subscriptions/clash1.yaml subscriptions/v2ray1.txt subscriptions/clash2.yaml subscriptions/v2ray2.txt subscriptions/clash3.yaml subscriptions/v2ray3.txt subscriptions/clash4.yaml subscriptions/v2ray4.txt subscriptions/clash-all.yaml subscriptions/v2ray-all.txt
           git commit -m "Update subscriptions"
           git push
