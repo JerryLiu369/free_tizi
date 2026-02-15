@@ -10,11 +10,11 @@ from zoneinfo import ZoneInfo
 
 TARGETS = {
     "clash1": {
-        "url": "https://yoyapai.com/mianfeijiedian/{date}-clash-vpnmfjiedian-yoyapai.com.yaml",
+        "url": "https://yoyapai.com/mianfeijiedian/{date}-clash-vpn-mfjiedian-yoyapai.com.yaml",
         "output": "subscriptions/clash1.yaml",
     },
     "v2ray1": {
-        "url": "https://yoyapai.com/mianfeijiedian/{date}-ssr-v2ray-vpnjiedian-yoyapai.com.txt",
+        "url": "https://yoyapai.com/mianfeijiedian/{date}-ssr-v2ray-vpn-jiedian-yoyapai.com.txt",
         "output": "subscriptions/v2ray1.txt",
     },
     "clash2": {
