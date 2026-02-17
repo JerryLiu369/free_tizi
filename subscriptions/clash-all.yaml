@@ -393,912 +393,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.dynv6.net
-- name: 🇭🇰 香港
-  type: trojan
-  server: 58.152.25.208
-  port: 443
-  password: BxceQaOe
-  sni: t.me/ripaojiedian
-  skip-cert-verify: true
-  tls: true
-- name: 🇯🇵JP
-  type: vless
-  server: 138.2.5.136
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.jpmj.dev
-- name: 🇳🇱NL
-  type: vless
-  server: 38.180.133.83
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.navy
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.v6.navy
-- name: 14|US0046
-  type: vless
-  server: www.udemy.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-- name: 14|US0043
-  type: vless
-  server: www.fbi.gov
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-- name: 🇫🇷FR
-  type: vless
-  server: 217.60.36.58
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.indevs.in
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇳🇱NL_1
-  type: vless
-  server: 188.253.27.144
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.v6.navy
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.v6.navy
-- name: 美国节点
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 美国节点_9
-  type: vless
-  server: 104.21.31.4
-  port: 8880
-  uuid: 0a5ab719-2407-4398-b507-8437ef365023
-  network: ws
-  tls: false
-  ws-opts:
-    path: /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
-    headers:
-      Host: underthegun.cfd.
-- name: 14|US0045
-  type: vless
-  server: www.npmjs.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-- name: 🇰🇷KR
-  type: vless
-  server: 158.179.173.208
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.indevs.in
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: 美國
-  type: trojan
-  server: 172.66.44.230
-  port: 8443
-  password: 8r<[9'l6hAO#8ZQi
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /tro8sFW1S91B6sZrM1?ed=2560
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-- name: 14|US0048
-  type: vless
-  server: cloudflare-dns.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-- name: 美国节点_10
-  type: vless
-  server: 188.114.97.3
-  port: 80
-  uuid: c3f75f0e-3fe6-4037-95be-ec869c453dfc
-  network: ws
-  servername: 188.114.97.3
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiZUtoUTZYaXU3TmIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-    headers:
-      Host: 024.electrocellco-cf-024.workers.dev
-- name: 14|US0053
-  type: vless
-  server: ns.cloudflare.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-- name: 美国节点_11
-  type: vless
-  server: 188.114.97.3
-  port: 80
-  uuid: c3f75f0e-3fe6-4037-95be-ec869c453dfc
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiZUtoUTZYaXU3TmIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-    headers:
-      Host: 024.electrocellco-cf-024.workers.dev
-- name: 🇳🇱NL_2
-  type: vless
-  server: 45.140.147.139
-  port: 443
-  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
-  network: ws
-  servername: o00o.snip.qzz.io
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: o00o.snip.qzz.io
-- name: 14|US0044
-  type: vless
-  server: developers.cloudflare.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-- name: 🇯🇵JP_1
-  type: vless
-  server: 43.165.183.43
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.jpmj.dev
-- name: 14|US0050
-  type: vless
-  server: www.temu.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-- name: 14|US0047
-  type: vless
-  server: www.wto.org
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-- name: 美国节点_15
-  type: vmess
-  server: aio.unlimited.biz.id
-  port: 443
-  uuid: f282b878-8711-45a1-8c69-5564172123c1
-  alterId: 0
-  cipher: zero
-  tls: true
-  skip-cert-verify: false
-  servername: aio.unlimited.biz.id
-  network: ws
-  ws-opts:
-    path: /aioproxybot/129.150.49.58-18650
-    headers:
-      Host: aio.unlimited.biz.id
-- name: 🇳🇱NL_3
-  type: vless
-  server: 193.38.54.174
-  port: 443
-  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
-  network: ws
-  servername: o00o.snip.qzz.io
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: o00o.snip.qzz.io
-- name: 14|US0052
-  type: vless
-  server: cf.090227.xyz
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-- name: 🇬🇧GB
-  type: vless
-  server: 94.131.122.145
-  port: 8443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.dynv6.net
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇺🇸 US美国
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-    headers:
-      Host: TABRIZ.NET
-- name: 法国节点
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-    headers:
-      Host: AZERB.NET
-- name: 法国节点_1
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-- name: 法国节点_2
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-    headers:
-      Host: 2001:bc8:32d7:302::10
-- name: 美国节点_16
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: ?ed=2048
-- name: 美国节点_17
-  type: vmess
-  server: 2001:bc8:32d7:302::16
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-    headers:
-      Host: AZERB.NET
-- name: 法国节点_3
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 美国_4
-  type: vmess
-  server: 2001:bc8:32d7:302::11
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-    headers:
-      Host: Azerb.NET
-- name: 美国_5
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-- name: 美国_6
-  type: vmess
-  server: 2001:bc8:32d7:302::17
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-    headers:
-      Host: AZERB.NET
-- name: 美国_7
-  type: vmess
-  server: 2001:bc8:32d7:302::14
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-    headers:
-      Host: TABRIZ.NET
-- name: 美国节点_18
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-- name: 法国节点_4
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 2001:bc8:32d7:302::10
-- name: 美国节点_19
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: AZERB.NET
-- name: 🇱🇻LV
-  type: vless
-  server: 84.21.172.81
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.indevs.in
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: 美国节点_20
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: 2001:bc8:32d7:302::10
-- name: 🇯🇵JP_2
-  type: vless
-  server: 45.77.25.6
-  port: 48828
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.indevs.in
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: 法国
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-- name: 法国节点_5
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: 2001:bc8:32d7:302::10
-  network: ws
-  ws-opts:
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-    headers:
-      Host: 2001:bc8:32d7:302::10
-- name: 英国节点_30
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-- name: 法国节点_6
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-    headers:
-      Host: TURK1.NET.NET
-- name: 美国节点_21
-  type: vmess
-  server: 2001:bc8:32d7:302::15
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-    headers:
-      Host: TURK.NET
-- name: US美国
-  type: vmess
-  server: yhj.tc1.ccwu.cc
-  port: 80
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /kFK9O5cl8ZycyrxcJWNVFC21
-    headers:
-      Host: yhj.tc1.ccwu.cc
-- name: 法国节点_7
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-- name: 🇭🇰HK_1
-  type: vless
-  server: 192.142.4.33
-  port: 8443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: WangCai.443888.xyz
-  tls: true
-  ws-opts:
-    path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: WangCai.443888.xyz
-- name: 🇯🇵JP_3
-  type: vless
-  server: 45.77.25.6
-  port: 27854
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.indevs.in
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: 美国节点_22
-  type: trojan
-  server: 135.125.232.253
-  port: 2053
-  password: iwangjie
-  sni: nodes.830901.xyz
-  skip-cert-verify: false
-  tls: true
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: nodes.830901.xyz
-- name: 🇬🇷_GR_希腊
-  type: vless
-  server: 185.234.57.207
-  port: 443
-  uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
-  servername: teamdocs.su
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
-    short-id: b5e0cd9ca194c0a5
-- name: 🇰🇷KR_1
-  type: vless
-  server: 131.186.26.129
-  port: 30443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: WangCai.443888.xyz
-  tls: true
-  ws-opts:
-    path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: WangCai.443888.xyz
-- name: 俄羅斯
-  type: vless
-  server: 78.153.139.68
-  port: 8443
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-  servername: images.apple.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: random
-  reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: 58c512b4422e2517
-- name: 未知 VLESS-119 |
-  type: vless
-  server: nodejs.org
-  port: 2052
-  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
-- name: US美国_1
-  type: vless
-  server: nodejs.org
-  port: 80
-  uuid: 33e1a095-1e25-4198-bfe7-ec312e4f98ee
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: CREDibLe-pLaNt7ddV4jJ7et.OnEeaT.CO.
-- name: 🇰🇷KR_2
-  type: vless
-  server: 131.186.22.50
-  port: 443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: WangCai.443888.xyz
-  tls: true
-  ws-opts:
-    path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: WangCai.443888.xyz
-- name: ' 芬兰 01'
-  type: vless
-  server: 78.153.139.68
-  port: 8443
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-  servername: images.apple.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: 58c512b4422e2517
-- name: 🇸🇬SG
-  type: vless
-  server: 128.199.255.242
-  port: 443
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  network: ws
-  servername: WangCai.443888.xyz
-  tls: true
-  ws-opts:
-    path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: WangCai.443888.xyz
-- name: 未知 VLESS-71
-  type: vless
-  server: nodejs.org
-  port: 80
-  uuid: 7d4a519b-d270-434e-a42d-d39624577a92
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: BrIgHt-orGaNizaTioNAuhudDhESZ.spoRTlAnd.CoMpANY.
-- name: 韩国节点
-  type: vless
-  server: 222.102.51.111
-  port: 51698
-  uuid: 5d42cfef-0556-4f0c-bfb7-161aef500ab5
-  network: grpc
-  servername: lenovoglobal.com
-  tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: PPZbDAYSwCYnPCF8BxguTFfAAZTnLnzpsHePCkGZYxo
-    short-id: '34'
-- name: US美国_2
-  type: vless
-  server: nodejs.org
-  port: 80
-  uuid: 4c97ec3e-3527-48c5-80ff-b715463896ba
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: kIndhEArTeD-PARkb5Rjo2juEr.sPorTLaNd.COMpAny.
-- name: 德国节点
-  type: vless
-  server: nodejs.org
-  port: 80
-  uuid: 65fe56c2-78ec-417a-a666-9f393eac8b61
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: everlASTinG-oFfERC4S5Mg1918.SpoRTLand.COMpaNy.
-- name: 🇭🇰HK_2
-  type: vless
-  server: 223.16.138.113
-  port: 10201
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.jpmj.dev
-- name: 美国节点_23
-  type: vless
-  server: nodejs.org
-  port: 80
-  uuid: 2a2a8023-3b4b-407d-a00a-7beb5a158148
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: SHAggy-AGREEMeNTSpUfz4utdI.SpOrTland.COMPANy.
-- name: US美国_3
-  type: vless
-  server: nodejs.org
-  port: 80
-  uuid: 4c97ec3e-3527-48c5-80ff-b715463896ba
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: kindhearted-parkb5rjo2juer.sportland.company.
-- name: 美国_8
-  type: vmess
-  server: 192.200.160.173
-  port: 2053
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: app.hajmyab.ir
-  network: ws
-  ws-opts:
-    path: /
-- name: US美国_4
-  type: ss
-  server: chengbai02.ascwt179.com
-  port: 13223
-  cipher: aes-128-gcm
-  password: JVrsLLN1tkN8oXZO
-- name: US美国_5
-  type: vmess
-  server: nextmi.hajmyab.ir
-  port: 2053
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: yakxvtfbyk.hajmyab.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: app.hajmyab.ir
-- name: 🇺🇸 US美国_1
-  type: vmess
-  server: nextmi.hajmyab.ir
-  port: 2053
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: app.hajmyab.ir
-- name: 美国节点_24
-  type: vmess
-  server: 2001:bc8:32d7:302::11
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-    headers:
-      Host: TABRIZ.NET
-- name: 香港节点
-  type: vmess
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-    headers:
-      Host: AZERB.NET
-- name: 🇭🇰HK_3
-  type: vless
-  server: 103.44.255.90
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.indevs.in
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳 @WangCai2
-    headers:
-      Host: sni.111000.indevs.in
 - name: 🇭🇰HK香港
   type: vless
   server: 103.44.255.92
@@ -1311,7 +405,19 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇭🇰HK_4
+- name: 🇭🇰HK_1
+  type: vless
+  server: 103.44.255.83
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇭🇰HK_2
   type: vless
   server: 103.44.255.83
   port: 443
@@ -1323,70 +429,22 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇯🇵JP_4
+- name: 🇰🇷KR
   type: vless
-  server: 158.101.145.82
-  port: 443
+  server: 116.93.199.28
+  port: 12136
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   servername: sni.111000.indevs.in
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: 🇯🇵JP_5
-  type: vless
-  server: 138.3.222.33
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.jpmj.dev
   tls: true
   ws-opts:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
-      Host: sni.jpmj.dev
-- name: 🇳🇱NL_4
-  type: vless
-  server: 95.164.11.48
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.indevs.in
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
       Host: sni.111000.indevs.in
-- name: 🇰🇷KR_3
+- name: 🇯🇵JP
   type: vless
-  server: 129.154.48.176
-  port: 36355
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  servername: sni.111000.indevs.in
-  tls: true
-  ws-opts:
-    path: /?ed=2560&Telegram🇨🇳+@WangCai2
-    headers:
-      Host: sni.111000.indevs.in
-- name: 美国节点_25
-  type: vless
-  server: 1password.com
-  port: 443
-  uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-  network: ws
-  servername: rayan-007.foton.dpdns.org
-  tls: true
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.foton.dpdns.org
-- name: 🇭🇰HK_5
-  type: vless
-  server: 36.50.90.241
-  port: 47790
+  server: 132.145.127.203
+  port: 2053
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   network: ws
   servername: WangCai.443888.xyz
@@ -1395,9 +453,21 @@ proxies:
     path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
     headers:
       Host: WangCai.443888.xyz
-- name: 🇫🇷FR_1
+- name: 韩国节点
   type: vless
-  server: 62.84.183.224
+  server: 222.102.51.111
+  port: 51698
+  uuid: 5d42cfef-0556-4f0c-bfb7-161aef500ab5
+  network: grpc
+  servername: lenovoglobal.com
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: PPZbDAYSwCYnPCF8BxguTFfAAZTnLnzpsHePCkGZYxo
+    short-id: '34'
+- name: 🇫🇷FR
+  type: vless
+  server: 46.8.224.153
   port: 8443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -1407,9 +477,66 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.indevs.in
-- name: 🇭🇰HK_6
+- name: 🇩🇪DE
   type: vless
-  server: 58.176.95.46
+  server: 152.53.131.209
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 英国
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵JP_1
+  type: vless
+  server: 138.2.59.96
+  port: 10129
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇺🇸US
+  type: vless
+  server: 148.135.118.112
+  port: 5000
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇯🇵JP_2
+  type: vless
+  server: 43.165.183.43
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇭🇰HK_3
+  type: vless
+  server: 38.180.189.220
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -1419,9 +546,489 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.indevs.in
+- name: 🇩🇪DE_1
+  type: vless
+  server: 89.169.6.114
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇨🇳 台湾省台中市 中华电信
+  type: trojan
+  server: 220.130.58.136
+  port: 31102
+  password: 4250b3bb-d1ae-4e77-bf71-4069e0d2c383
+  sni: green2.cdntencentmusic.com
+  skip-cert-verify: false
+  tls: true
+- name: 美國
+  type: trojan
+  server: 172.66.44.230
+  port: 8443
+  password: 8r<[9'l6hAO#8ZQi
+  sni: Koma-YT.PAGeS.Dev
+  skip-cert-verify: false
+  tls: true
+  ws-opts:
+    path: /tro8sFW1S91B6sZrM1?ed=2560
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 🇮🇳IN
+  type: vless
+  server: 134.195.137.107
+  port: 22473
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇱🇻LV
+  type: vless
+  server: 84.21.172.81
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇩🇪DE_2
+  type: vless
+  server: 89.169.6.208
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇺🇸US_1
+  type: vless
+  server: 135.84.72.118
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  network: ws
+  servername: WangCai.443888.xyz
+  tls: true
+  ws-opts:
+    path: /danfeng?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: WangCai.443888.xyz
+- name: 14|US0052
+  type: vless
+  server: cf.090227.xyz
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  network: ws
+  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+- name: 香港节点
+  type: trojan
+  server: wangcai.cf.877774.xyz
+  port: 443
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  sni: dimskiee.biz.id
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /WangCai-8
+    headers:
+      Host: dimskiee.biz.id
+- name: 14|US0047
+  type: vless
+  server: www.wto.org
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  network: ws
+  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+- name: 🇺🇸US_2
+  type: vless
+  server: 67.226.221.104
+  port: 80
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: HK香港
+  type: vless
+  server: 43.133.0.58
+  port: 57778
+  uuid: 69905933-1b12-24fd-4ded-568ee4322895
+  network: ws
+  servername: a926adb5.lfree.ccwu.cc
+  tls: true
+  ws-opts:
+    path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719
+    headers:
+      Host: a926adb5.lfree.ccwu.cc
+- name: 🇳🇱NL
+  type: vless
+  server: 38.180.133.83
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: ' 芬兰 01'
+  type: vless
+  server: 78.153.139.68
+  port: 8443
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  servername: images.apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: 58c512b4422e2517
+- name: 🇯🇵JP_3
+  type: vless
+  server: 140.83.57.114
+  port: 25965
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇰🇷KR_1
+  type: vless
+  server: 144.24.90.107
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.jpmj.dev
+- name: 'GB SS-22 '
+  type: ss
+  server: admin.c2.havij.co
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: kaQH3hGdcP80XEDI
+- name: 🇳🇱NL_1
+  type: vless
+  server: 91.84.103.32
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 俄羅斯
+  type: vless
+  server: 78.153.139.68
+  port: 8443
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+  servername: images.apple.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: random
+  reality-opts:
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: 58c512b4422e2517
+- name: 🇳🇱NL_2
+  type: vless
+  server: 212.34.140.216
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇩🇪DE_3
+  type: vless
+  server: 91.107.250.153
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇳🇱NL_3
+  type: vless
+  server: 188.253.27.144
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇬🇧GB
+  type: vless
+  server: 165.227.237.209
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇳🇱NL_4
+  type: vless
+  server: 77.238.237.211
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇬🇧GB_1
+  type: vless
+  server: 94.131.122.145
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇬🇷_GR_希腊
+  type: vless
+  server: 185.234.57.207
+  port: 443
+  uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
+  servername: teamdocs.su
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
+    short-id: b5e0cd9ca194c0a5
+- name: 🇳🇱NL_5
+  type: vless
+  server: 72.56.73.227
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇳🇱NL_6
+  type: vless
+  server: 64.227.73.131
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇰🇷KR_2
+  type: vless
+  server: 130.162.130.105
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇰🇷KR_3
+  type: vless
+  server: 146.56.140.79
+  port: 22561
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  network: ws
+  servername: WangCai.443888.xyz
+  tls: true
+  ws-opts:
+    path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: WangCai.443888.xyz
+- name: 🇭🇰HK_4
+  type: vless
+  server: 103.219.193.114
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇰🇷KR_4
+  type: vless
+  server: 58.143.198.82
+  port: 18097
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇳🇱NL_7
+  type: vless
+  server: 91.84.101.33
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇸🇬SG
+  type: vless
+  server: 172.237.73.24
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇭🇰HK_5
+  type: vless
+  server: 101.79.165.113
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.jpmj.dev
 - name: 🇸🇬SG_1
   type: vless
-  server: 43.160.195.223
+  server: 178.128.125.147
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  network: ws
+  servername: WangCai.443888.xyz
+  tls: true
+  ws-opts:
+    path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: WangCai.443888.xyz
+- name: 🇮🇳IN_1
+  type: vless
+  server: 134.195.137.107
+  port: 22473
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  network: ws
+  servername: WangCai.443888.xyz
+  tls: true
+  ws-opts:
+    path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: WangCai.443888.xyz
+- name: 🇰🇷KR_5
+  type: vless
+  server: 131.186.22.50
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.jpmj.dev
+- name: AU澳大利亚
+  type: vless
+  server: 172.66.128.70
+  port: 2052
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+- name: 🇲🇾MY
+  type: vless
+  server: 47.250.139.249
+  port: 443
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  network: ws
+  servername: WangCai.443888.xyz
+  tls: true
+  ws-opts:
+    path: /danfeng?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: WangCai.443888.xyz
+- name: 未知 VLESS-119 |
+  type: vless
+  server: nodejs.org
+  port: 2052
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+  network: ws
+  tls: false
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+- name: 🇸🇬SG_2
+  type: vless
+  server: 128.199.255.242
   port: 443
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
@@ -1431,6 +1038,644 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2
     headers:
       Host: sni.111000.indevs.in
+- name: 🇸🇬SG_3
+  type: vless
+  server: 159.89.207.154
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬SG_4
+  type: vless
+  server: 43.163.90.17
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇺🇸 美国 CloudFlare节点
+  type: vmess
+  server: TM_AZARBAYJAB1.SERV.9.pagES.DEV
+  port: 80
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+    headers:
+      Host: tr1-smart.adelping.com
+- name: US美国
+  type: ss
+  server: chengbai02.ascwt179.com
+  port: 13223
+  cipher: aes-128-gcm
+  password: JVrsLLN1tkN8oXZO
+- name: TW台湾
+  type: ss
+  server: ldu.izenny.com
+  port: 10589
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+- name: 🇨🇳 广东省云浮市 移动
+  type: ss
+  server: ldu.izenny.com
+  port: 57927
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+- name: US美国_1
+  type: ss
+  server: ldu.izenny.com
+  port: 18140
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+- name: 🇫🇷FR_1
+  type: vless
+  server: 51.38.48.27
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇫🇷FR_2
+  type: vless
+  server: 85.31.236.117
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇳🇱NL_8
+  type: vless
+  server: 194.60.134.249
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇳🇱NL_9
+  type: vless
+  server: 193.233.127.89
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇳🇱NL_10
+  type: vless
+  server: 89.110.105.81
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇫🇷FR_3
+  type: vless
+  server: 88.218.79.169
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇩🇪DE_4
+  type: vless
+  server: 194.13.81.146
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇳🇱NL_11
+  type: vless
+  server: 109.234.32.8
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇫🇷FR_4
+  type: vless
+  server: 51.91.249.241
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇳🇱NL_12
+  type: vless
+  server: 194.87.26.250
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇫🇷FR_5
+  type: vless
+  server: 88.218.77.178
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇳🇱NL_13
+  type: vless
+  server: 93.183.69.161
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇺🇸US_3
+  type: vless
+  server: 23.95.252.186
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬SG_5
+  type: vless
+  server: 178.128.125.147
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇫🇷FR_6
+  type: vless
+  server: 64.176.227.171
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇳🇱NL_14
+  type: vless
+  server: 194.87.134.130
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇫🇷FR_7
+  type: vless
+  server: 141.94.222.3
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇸🇬SG_6
+  type: vless
+  server: 143.42.66.91
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇩🇪DE_5
+  type: vless
+  server: 91.186.212.63
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇫🇷FR_8
+  type: vless
+  server: 51.38.44.17
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇫🇷FR_9
+  type: vless
+  server: 162.19.79.57
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇳🇱NL_15
+  type: vless
+  server: 185.209.161.104
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇳🇱NL_16
+  type: vless
+  server: 194.87.62.179
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇳🇱NL_17
+  type: vless
+  server: 194.87.222.145
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇺🇸US_4
+  type: vless
+  server: 5.78.77.41
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇳🇱NL_18
+  type: vless
+  server: 83.217.211.40
+  port: 443
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  network: ws
+  servername: o00o.snip.qzz.io
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: o00o.snip.qzz.io
+- name: 🇬🇧GB_2
+  type: vless
+  server: 57.129.137.70
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇳🇱NL_19
+  type: vless
+  server: 89.110.76.19
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇰🇷KR_6
+  type: vless
+  server: 111.118.118.177
+  port: 12399
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇱🇻LV_1
+  type: vless
+  server: 5.34.211.194
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇩🇪DE_6
+  type: vless
+  server: 5.187.3.170
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇩🇪DE_7
+  type: vless
+  server: 195.133.64.185
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇰🇷KR_7
+  type: vless
+  server: 146.56.140.79
+  port: 22561
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.jpmj.dev
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.jpmj.dev
+- name: 🇩🇪DE_8
+  type: vless
+  server: 185.17.123.114
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇱🇻LV_2
+  type: vless
+  server: 5.34.215.232
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇫🇷FR_10
+  type: vless
+  server: 51.91.254.99
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇳🇱NL_20
+  type: vless
+  server: 45.131.187.210
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇩🇪DE_9
+  type: vless
+  server: 193.233.86.93
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇺🇸US_5
+  type: vless
+  server: 5.78.58.218
+  port: 443
+  uuid: 3321a819-889d-40b3-b8fa-f34208827ef1
+  network: ws
+  servername: o00o.snip.qzz.io
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: o00o.snip.qzz.io
+- name: 🇺🇸US_6
+  type: vless
+  server: 147.75.231.19
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇬🇧GB_3
+  type: vless
+  server: 57.128.180.98
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇱🇻LV_3
+  type: vless
+  server: 185.82.126.9
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.dynv6.net
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇳🇱NL_21
+  type: vless
+  server: 193.124.189.40
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇩🇪DE_10
+  type: vless
+  server: 89.58.40.177
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇬🇧GB_4
+  type: vless
+  server: 57.129.137.91
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇬🇧GB_5
+  type: vless
+  server: 57.129.131.163
+  port: 2053
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.indevs.in
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇳🇱NL_22
+  type: vless
+  server: 77.238.244.75
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇩🇪DE_11
+  type: vless
+  server: 80.66.85.115
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  servername: sni.111000.v6.navy
+  tls: true
+  ws-opts:
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: sni.111000.v6.navy
 - name: 8元老牌专线机场：cczzuu.top
   server: 63.180.254.10
   port: 443
@@ -1447,49 +1692,49 @@ proxies:
   tls: false
   skip-cert-verify: false
 - name: 🇭🇰 香港3|@stairnode
-  server: 43.206.192.192
-  port: 4856
+  server: 18.183.109.29
+  port: 3373
   type: trojan
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   sni: www.nintendogames.net
   skip-cert-verify: true
 - name: 🇭🇰 香港4|@stairnode
-  server: 43.198.96.56
-  port: 2826
-  type: trojan
-  password: BxceQaOe
-  sni: t.me%2Fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰 香港5|@stairnode
-  server: 43.198.108.86
+  server: 57.180.15.194
   port: 54548
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
+- name: 🇭🇰 香港5|@stairnode
+  server: 43.207.105.49
+  port: 443
+  type: trojan
+  password: BxceQaOe
+  sni: t.me%2Fripaojiedian
+  skip-cert-verify: true
 - name: 🇯🇵 日本|@stairnode
-  server: 57.180.12.68
-  port: 20539
+  server: 43.206.226.70
+  port: 2595
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
 - name: 🇯🇵 日本2|@stairnode
-  server: 153.121.70.134
-  port: 400
+  server: 160.16.85.33
+  port: 193
   type: trojan
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇯🇵 日本3|@stairnode
-  server: 160.16.130.21
-  port: 3423
+  server: 160.16.231.103
+  port: 400
   type: trojan
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇸🇬 新加坡|@stairnode
-  server: 160.16.124.55
+  server: 160.16.138.24
   port: 3901
   type: trojan
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
@@ -1503,14 +1748,14 @@ proxies:
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇸🇬 新加坡3|@stairnode
-  server: 43.198.96.56
-  port: 3127
+  server: 43.199.161.245
+  port: 2673
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
 - name: 🇺🇸 美国|@stairnode
-  server: 54.95.11.131
+  server: 153.121.38.213
   port: 1281
   type: trojan
   password: 9372cb81c7b0ad903f91f2f8a4d3f02b
@@ -1524,8 +1769,8 @@ proxies:
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇺🇸 美国3|@stairnode
-  server: 43.198.96.56
-  port: 2569
+  server: 57.181.39.168
+  port: 38780
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
@@ -1687,17 +1932,6 @@ proxies:
   client-fingerprint: chrome
   reality-opts:
     public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-- name: 🇺🇸_US_美国_3
-  type: vless
-  server: 172.66.128.70
-  port: 2052
-  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
-  network: ws
-  tls: false
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
 - name: 🇯🇵_JP_日本->🇨🇳_CN_中国
   type: trojan
   server: 52.195.8.127
@@ -1804,7 +2038,92 @@ proxies:
     path: /
     headers:
       Host: dev.twistsparrow.xyz
+- name: AU澳大利亚(mibei77.com 米贝节点分享)
+  server: bgty6.852224.xyz
+  port: 443
+  type: trojan
+  password: c52d2de2-fc6d-490c-8421-132f87615736
+  sni: bgty6.852224.xyz
+  skip-cert-verify: true
+  udp: true
+- name: FR法国(mibei77.com 米贝节点分享)
+  server: v30.hdacd.com
+  port: 30830
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享)
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  ws-headers:
+    Host: AZERB.NET
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 2
+  server: h7.89060004.xyz
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: h7.89060004.xyz
+  skip-cert-verify: true
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 3
+  server: nmk.tt6.ccwu.cc
+  port: 80
+  type: vmess
+  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-headers:
+    Host: nmk.tt6.ccwu.cc
+  udp: true
+- name: RU俄罗斯(mibei77.com 米贝节点分享)
+  server: 109.234.211.66
+  port: 8443
+  type: trojan
+  password: trojan
+  skip-cert-verify: true
+  udp: true
+- name: TW台湾(mibei77.com 米贝节点分享)
+  server: ldu.izenny.com
+  port: 55936
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  udp: true
+- name: TW台湾(mibei77.com 米贝节点分享) 2
+  server: ldu.izenny.com
+  port: 10589
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  udp: true
 - name: US美国(mibei77.com 米贝节点分享)
+  server: v12.hdacd.com
+  port: 30812
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 2
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
@@ -1818,7 +2137,7 @@ proxies:
   ws-headers:
     Host: TABRIZ.NET
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 2
+- name: US美国(mibei77.com 米贝节点分享) 3
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
@@ -1832,183 +2151,7 @@ proxies:
   ws-headers:
     Host: AZERB.NET
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 3
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
-  ws-headers:
-    Host: 2001:bc8:32d7:302::10
-  udp: true
 - name: US美国(mibei77.com 米贝节点分享) 4
-  server: bbbnmki.kk7.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: bbbnmki.kk7.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 5
-  server: dll.avaaaal.ir
-  port: 8443
-  type: vmess
-  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdge.avaaaal.ir
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享)
-  server: nnmk.bb5.indevs.in
-  port: 80
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-  ws-headers:
-    Host: nnmk.bb5.indevs.in
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 6
-  server: bg.ae1.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: bg.ae1.us.ci
-  udp: true
-- name: FR法国(mibei77.com 米贝节点分享)
-  server: njui.ae1autumn.indevs.in
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: njui.ae1autumn.indevs.in
-  udp: true
-- name: SG新加坡(mibei77.com 米贝节点分享)
-  server: vc.fly.dev
-  port: 443
-  type: vmess
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  alterId: 32
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /vc
-  ws-headers:
-    Host: vc.fly.dev
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 7
-  server: bju.89890604.xyz
-  port: 443
-  type: trojan
-  password: c558328b-eb46-424c-b9e0-574770f0b072
-  sni: bju.89890604.xyz
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 8
-  server: 1qw.ae1autumn.cc.cd
-  port: 80
-  type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /YsmRouA9ZbxgW4
-  ws-headers:
-    Host: 1qw.ae1autumn.cc.cd
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享)
-  server: gt6.ae1.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: gt6.ae1.us.ci
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 2
-  server: zzs.222856.xyz
-  port: 443
-  type: vmess
-  uuid: c558328b-eb46-424c-b9e0-574770f0b072
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
-  ws-headers:
-    Host: zzs.222856.xyz
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 9
-  server: gbnh.ae1.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: gbnh.ae1.us.ci
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 3
-  server: nju.bb4.indevs.in
-  port: 80
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-  ws-headers:
-    Host: nju.bb4.indevs.in
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 10
   server: u8.ok8.ccwu.cc
   port: 443
   type: trojan
@@ -2016,142 +2159,30 @@ proxies:
   sni: u8.ok8.ccwu.cc
   skip-cert-verify: true
   udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 3
-  server: vfgt.99890604.xyz
-  port: 443
-  type: vmess
-  uuid: c558328b-eb46-424c-b9e0-574770f0b072
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
-  ws-headers:
-    Host: vfgt.99890604.xyz
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 4
-  server: ilop.uk2033.ccwu.cc
+- name: US美国(mibei77.com 米贝节点分享) 5
+  server: bhy.89060004.xyz
   port: 443
   type: trojan
-  password: 1338f666-2fcc-4538-bc29-1ebf89624383
-  sni: ilop.uk2033.ccwu.cc
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: bhy.89060004.xyz
   skip-cert-verify: true
   udp: true
-- name: TW台湾(mibei77.com 米贝节点分享)
+- name: US美国(mibei77.com 米贝节点分享) 6
+  server: r56.bb0.ccwu.cc
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: r56.bb0.ccwu.cc
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 8
   server: ldu.izenny.com
-  port: 55936
+  port: 57927
   type: ss
   cipher: chacha20-ietf-poly1305
   password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
   udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 5
-  server: bgty6.852224.xyz
-  port: 443
-  type: trojan
-  password: c52d2de2-fc6d-490c-8421-132f87615736
-  sni: bgty6.852224.xyz
-  skip-cert-verify: true
-  udp: true
-- name: FR法国(mibei77.com 米贝节点分享) 2
-  server: vbh.ae1autumn.cc.cd
-  port: 80
-  type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /YsmRouA9ZbxgW4
-  ws-headers:
-    Host: vbh.ae1autumn.cc.cd
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 14
-  server: dfg.ae1autumn.cc.cd
-  port: 80
-  type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /YsmRouA9ZbxgW4
-  ws-headers:
-    Host: dfg.ae1autumn.cc.cd
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 15
-  server: ju8.ae1.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: ju8.ae1.us.ci
-  udp: true
-- name: FR法国(mibei77.com 米贝节点分享) 3
-  server: dvgt.zem.indevs.in
-  port: 80
-  type: vmess
-  uuid: c558328b-eb46-424c-b9e0-574770f0b072
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
-  ws-headers:
-    Host: dvgt.zem.indevs.in
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 16
-  server: mko.bb1.indevs.in
-  port: 80
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-  ws-headers:
-    Host: mko.bb1.indevs.in
-  udp: true
-- name: FR法国(mibei77.com 米贝节点分享) 4
-  server: jjkm.zem.indevs.in
-  port: 80
-  type: vmess
-  uuid: c558328b-eb46-424c-b9e0-574770f0b072
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
-  ws-headers:
-    Host: jjkm.zem.indevs.in
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 17
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
-  ws-headers:
-    Host: 2001:bc8:32d7:302::10
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 19
+- name: US美国(mibei77.com 米贝节点分享) 9
   server: ghj.ok7.ccwu.cc
   port: 443
   type: trojan
@@ -2159,384 +2190,14 @@ proxies:
   sni: ghj.ok7.ccwu.cc
   skip-cert-verify: true
   udp: true
-- name: FR法国(mibei77.com 米贝节点分享) 5
-  server: 3.ae1autumn.indevs.in
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: 3.ae1autumn.indevs.in
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 6
-  server: nhj4r.huangshang.site
-  port: 443
-  type: vmess
-  uuid: c558328b-eb46-424c-b9e0-574770f0b072
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
-  ws-headers:
-    Host: nhj4r.huangshang.site
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 7
-  server: o0.666470.xyz
-  port: 443
-  type: trojan
-  password: c558328b-eb46-424c-b9e0-574770f0b072
-  sni: o0.666470.xyz
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 20
-  server: jjki.ae1autumn.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: jjki.ae1autumn.us.ci
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 21
-  server: uu9.ae1.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: uu9.ae1.us.ci
-  udp: true
-- name: TW台湾(mibei77.com 米贝节点分享) 2
-  server: ldu.izenny.com
-  port: 10589
+- name: US美国(mibei77.com 米贝节点分享) 10
+  server: chengbai02.ascwt179.com
+  port: 13223
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  cipher: aes-128-gcm
+  password: JVrsLLN1tkN8oXZO
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 22
-  server: l98.222560.xyz
-  port: 443
-  type: vmess
-  uuid: c558328b-eb46-424c-b9e0-574770f0b072
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
-  ws-headers:
-    Host: l98.222560.xyz
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 6
-  server: lop.bb3.indevs.in
-  port: 80
-  type: vmess
-  uuid: b020865b-7404-4894-ba65-a7414b10cda3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
-  ws-headers:
-    Host: lop.bb3.indevs.in
-  udp: true
-- name: AU澳大利亚(mibei77.com 米贝节点分享)
-  server: v24.hdacd.com
-  port: 30824
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 23
-  server: hhjui.222769.xyz
-  port: 443
-  type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /YsmRouA9ZbxgW4
-  ws-headers:
-    Host: hhjui.222769.xyz
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 25
-  server: mmkio.tc6.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: mmkio.tc6.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 26
-  server: njk.222560.xyz
-  port: 443
-  type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /YsmRouA9ZbxgW4
-  ws-headers:
-    Host: njk.222560.xyz
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 27
-  server: rgt.ae1autumn.dpdns.org
-  port: 80
-  type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /YsmRouA9ZbxgW4
-  ws-headers:
-    Host: rgt.ae1autumn.dpdns.org
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 28
-  server: ko0.ae1.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: ko0.ae1.us.ci
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 29
-  server: nhju.ae1autumn.indevs.in
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: nhju.ae1autumn.indevs.in
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 30
-  server: bnmj.wc6.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: bnmj.wc6.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 31
-  server: b6.dddct.us.ci
-  port: 443
-  type: vmess
-  uuid: 4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /E3MEctoKyZkI4BWzwNzcYz
-  ws-headers:
-    Host: b6.dddct.us.ci
-  udp: true
-- name: FR法国(mibei77.com 米贝节点分享) 6
-  server: jj90.ae1autumn.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: jj90.ae1autumn.us.ci
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 32
-  server: hju.ae1autumn.cc.cd
-  port: 80
-  type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /YsmRouA9ZbxgW4
-  ws-headers:
-    Host: hju.ae1autumn.cc.cd
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 34
-  server: ldu.izenny.com
-  port: 18140
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 8
-  server: ki9.666470.xyz
-  port: 443
-  type: trojan
-  password: c558328b-eb46-424c-b9e0-574770f0b072
-  sni: ki9.666470.xyz
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 36
-  server: nnmk.tt7.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: nnmk.tt7.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 37
-  server: ldu.izenny.com
-  port: 57927
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 39
-  server: cdfr.ae1autumn.dpdns.org
-  port: 443
-  type: vmess
-  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /YsmRouA9ZbxgW4
-  ws-headers:
-    Host: cdfr.ae1autumn.dpdns.org
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 40
-  server: mmko.tt0.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: mmko.tt0.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 41
-  server: nextmi.hajmyab.ir
-  port: 2053
-  type: vmess
-  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: app.hajmyab.ir
-  udp: true
-- name: NL荷兰(mibei77.com 米贝节点分享)
-  server: bnhy7.986986.shop
-  port: 443
-  type: trojan
-  password: 4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce
-  sni: bnhy7.986986.shop
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 44
-  server: bghy.ae1autumn.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: bghy.ae1autumn.us.ci
-  udp: true
-- name: NL荷兰(mibei77.com 米贝节点分享) 2
-  server: nj.222856.xyz
-  port: 443
-  type: vmess
-  uuid: c558328b-eb46-424c-b9e0-574770f0b072
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
-  ws-headers:
-    Host: nj.222856.xyz
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 46
-  server: jjk.ae1autumn.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: jjk.ae1autumn.us.ci
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 47
+- name: US美国(mibei77.com 米贝节点分享) 11
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
@@ -2550,170 +2211,48 @@ proxies:
   ws-headers:
     Host: 2001:bc8:32d7:302::10
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 48
-  server: 2001:bc8:32d7:302::11
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  ws-headers:
-    Host: TABRIZ.NET
+- name: US美国(mibei77.com 米贝节点分享) 12
+  server: ldu.izenny.com
+  port: 18140
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 49
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: US美国(mibei77.com 米贝节点分享) 13
+  server: kk9.89060004.xyz
+  port: 443
+  type: trojan
+  password: 4c205c81-5694-43fe-a287-af563a2ebc05
+  sni: kk9.89060004.xyz
   skip-cert-verify: true
-  network: ws
-  ws-path: ?ed=2048
-  ws-headers:
-    Host: 2001:bc8:32d7:302::10
   udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 9
-  server: fvbg.ae1autumn.cc.cd
-  port: 80
+- name: US美国(mibei77.com 米贝节点分享) 15
+  server: ilop.uk2033.ccwu.cc
+  port: 443
+  type: trojan
+  password: 1338f666-2fcc-4538-bc29-1ebf89624383
+  sni: ilop.uk2033.ccwu.cc
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 16
+  server: cdfr.ae1autumn.dpdns.org
+  port: 443
   type: vmess
   uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-path: /YsmRouA9ZbxgW4
   ws-headers:
-    Host: fvbg.ae1autumn.cc.cd
+    Host: cdfr.ae1autumn.dpdns.org
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 50
-  server: 2001:bc8:32d7:302::15
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  ws-headers:
-    Host: TURK.NET
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 51
-  server: hhju8.huangshang.site
-  port: 443
-  type: trojan
-  password: c558328b-eb46-424c-b9e0-574770f0b072
-  sni: hhju8.huangshang.site
-  skip-cert-verify: true
-  udp: true
-- name: NL荷兰(mibei77.com 米贝节点分享) 3
-  server: zzs.222856.xyz
-  port: 443
-  type: trojan
-  password: c558328b-eb46-424c-b9e0-574770f0b072
-  sni: zzs.222856.xyz
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 11
+- name: US美国(mibei77.com 米贝节点分享) 17
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  ws-headers:
-    Host: AZERB.NET
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 52
-  server: u89.ae1autumn.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: u89.ae1autumn.us.ci
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 53
-  server: gt67.ae1.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: gt67.ae1.us.ci
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 54
-  server: jjmk.wc2.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: jjmk.wc2.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 55
-  server: chengbai02.ascwt179.com
-  port: 13223
-  type: ss
-  cipher: aes-128-gcm
-  password: JVrsLLN1tkN8oXZO
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 56
-  server: nnm.ae1.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: nnm.ae1.us.ci
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 57
-  server: 82.198.246.97
-  port: 180
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 58
-  server: gtm1.ktmwan.net
-  port: 12883
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
   alterId: 0
   cipher: auto
   tls: false
@@ -2721,24 +2260,10 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: gtm1.ktmwan.net
+    Host: 2001:bc8:32d7:302::10
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 59
-  server: ji9.ae1autumn.us.ci
-  port: 80
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: ji9.ae1autumn.us.ci
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 10
-  server: a89.333856.xyz
+- name: US美国(mibei77.com 米贝节点分享) 18
+  server: l98.222560.xyz
   port: 443
   type: vmess
   uuid: c558328b-eb46-424c-b9e0-574770f0b072
@@ -2749,93 +2274,68 @@ proxies:
   network: ws
   ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
   ws-headers:
-    Host: a89.333856.xyz
+    Host: l98.222560.xyz
   udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 12
-  server: 2001:bc8:32d7:302::10
-  port: 44579
+- name: US美国(mibei77.com 米贝节点分享) 19
+  server: 154.219.5.199
+  port: 443
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  uuid: f08369d1-5ee7-4b16-d786-30bce12fc33c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /f08369d1-5ee7-4b16-d786-30bce12fc33c
+  ws-headers:
+    Host: ous3.dean52.top
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享)
+  server: 82.198.246.97
+  port: 180
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  ws-headers:
-    Host: TURK1.NET.NET
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 63
-  server: 2001:bc8:32d7:302::10
-  port: 44579
+- name: HK香港(mibei77.com 米贝节点分享) 4
+  server: ldu.izenny.com
+  port: 13828
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 6
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 7
+  server: basic-ru-0.undef.network
+  port: 42095
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: VCFAk7Hc8FI27kHavKAfJpamy
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 8
+  server: nextmi.hajmyab.ir
+  port: 2053
   type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  ws-headers:
-    Host: AZERB.NET
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 64
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  ws-headers:
-    Host: 2001:bc8:32d7:302::10
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 65
-  server: 2001:bc8:32d7:302::17
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
-  ws-headers:
-    Host: AZERB.NET
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 66
-  server: 2001:bc8:32d7:302::10
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: 2001:bc8:32d7:302::10
+    Host: app.hajmyab.ir
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 68
-  server: 2001:bc8:32d7:302::11
-  port: 44579
-  type: vmess
-  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-  ws-headers:
-    Host: Azerb.NET
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 69
+- name: HK香港(mibei77.com 米贝节点分享) 9
   server: 2001:bc8:32d7:302::10
   port: 44579
   type: vmess
@@ -2845,11 +2345,11 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  ws-path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
   ws-headers:
     Host: 2001:bc8:32d7:302::10
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 70
+- name: HK香港(mibei77.com 米贝节点分享) 10
   server: 2001:bc8:32d7:302::16
   port: 44579
   type: vmess
@@ -2863,30 +2363,8 @@ proxies:
   ws-headers:
     Host: AZERB.NET
   udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 11
-  server: njki.222856.xyz
-  port: 443
-  type: trojan
-  password: c558328b-eb46-424c-b9e0-574770f0b072
-  sni: njki.222856.xyz
-  skip-cert-verify: true
-  udp: true
-- name: GB英国(mibei77.com 米贝节点分享) 12
-  server: bghy.8900604.xyz
-  port: 443
-  type: vmess
-  uuid: c558328b-eb46-424c-b9e0-574770f0b072
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
-  ws-headers:
-    Host: bghy.8900604.xyz
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 71
-  server: 2001:bc8:32d7:302::14
+- name: HK香港(mibei77.com 米贝节点分享) 11
+  server: 2001:bc8:32d7:302::11
   port: 44579
   type: vmess
   uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
@@ -2897,61 +2375,37 @@ proxies:
   network: ws
   ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
   ws-headers:
-    Host: TABRIZ.NET
+    Host: Azerb.NET
   udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 15
-  server: bbnj.wc9.ccwu.cc
-  port: 80
+- name: US美国(mibei77.com 米贝节点分享) 33
+  server: 2001:bc8:32d7:302::10
+  port: 44579
   type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
   ws-headers:
-    Host: bbnj.wc9.ccwu.cc
+    Host: AZERB.NET
   udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 16
-  server: mmkio.wc5.ccwu.cc
-  port: 80
+- name: US美国(mibei77.com 米贝节点分享) 35
+  server: njk.222560.xyz
+  port: 443
   type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
+  ws-path: /YsmRouA9ZbxgW4
   ws-headers:
-    Host: mmkio.wc5.ccwu.cc
+    Host: njk.222560.xyz
   udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 17
-  server: v12.hdacd.com
-  port: 30812
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 72
-  server: yhj.tc1.ccwu.cc
-  port: 80
-  type: vmess
-  uuid: 1798b14b-aee0-4008-ba9a-2e53877761b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /kFK9O5cl8ZycyrxcJWNVFC21
-  ws-headers:
-    Host: yhj.tc1.ccwu.cc
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 73
+- name: US美国(mibei77.com 米贝节点分享) 40
   server: nmj.wc8.ccwu.cc
   port: 80
   type: vmess
@@ -2965,170 +2419,274 @@ proxies:
   ws-headers:
     Host: nmj.wc8.ccwu.cc
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 74
-  server: jjki.ae1autumn.us.ci
-  port: 443
+- name: US美国(mibei77.com 米贝节点分享) 42
+  server: mko.bb1.indevs.in
+  port: 80
   type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: jjki.ae1autumn.us.ci
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 75
-  server: gbnh.666470.xyz
-  port: 443
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: gbnh.666470.xyz
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 76
-  server: bhnju.666470.xyz
-  port: 443
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: bhnju.666470.xyz
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 19
-  server: 567u.666470.xyz
-  port: 443
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: 567u.666470.xyz
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 20
-  server: h7.89060004.xyz
-  port: 443
-  type: trojan
-  password: 4c205c81-5694-43fe-a287-af563a2ebc05
-  sni: h7.89060004.xyz
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 21
-  server: 5tyu.8900604.xyz
-  port: 443
-  type: trojan
-  password: 4c205c81-5694-43fe-a287-af563a2ebc05
-  sni: 5tyu.8900604.xyz
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 22
-  server: 3er.8900604.xyz
-  port: 443
-  type: trojan
-  password: 4c205c81-5694-43fe-a287-af563a2ebc05
-  sni: 3er.8900604.xyz
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 77
-  server: u9.89060004.xyz
-  port: 443
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: u9.89060004.xyz
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 78
-  server: r56.bb0.ccwu.cc
-  port: 443
-  type: trojan
-  password: 4c205c81-5694-43fe-a287-af563a2ebc05
-  sni: r56.bb0.ccwu.cc
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 79
-  server: bhy.89060004.xyz
-  port: 443
-  type: trojan
-  password: 4c205c81-5694-43fe-a287-af563a2ebc05
-  sni: bhy.89060004.xyz
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 80
-  server: zs.666470.xyz
-  port: 443
-  type: trojan
-  password: 4c205c81-5694-43fe-a287-af563a2ebc05
-  sni: zs.666470.xyz
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 81
-  server: nhju.ae1autumn.indevs.in
-  port: 443
-  type: trojan
-  password: 4c205c81-5694-43fe-a287-af563a2ebc05
-  sni: nhju.ae1autumn.indevs.in
-  skip-cert-verify: true
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 82
-  server: 3er.8900604.xyz
-  port: 443
-  type: vmess
-  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
-  ws-headers:
-    Host: 3er.8900604.xyz
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 83
-  server: kk9.89060004.xyz
-  port: 443
-  type: trojan
-  password: 4c205c81-5694-43fe-a287-af563a2ebc05
-  sni: kk9.89060004.xyz
-  skip-cert-verify: true
-  udp: true
-- name: HK香港(mibei77.com 米贝节点分享) 32
-  server: v30.hdacd.com
-  port: 30830
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
+  ws-headers:
+    Host: mko.bb1.indevs.in
   udp: true
-- name: RU俄罗斯(mibei77.com 米贝节点分享)
-  server: 109.234.211.66
-  port: 8443
-  type: trojan
-  password: trojan
+- name: US美国(mibei77.com 米贝节点分享) 45
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  ws-headers:
+    Host: TURK1.NET.NET
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 46
+  server: ko0.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: ko0.ae1.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 48
+  server: gt6.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: gt6.ae1.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 51
+  server: ju8.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: ju8.ae1.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 55
+  server: 167.68.4.199
+  port: 2053
+  type: trojan
+  password: Aimer
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 57
+  server: vfgt.99890604.xyz
+  port: 443
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: vfgt.99890604.xyz
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 60
+  server: jjkm.zem.indevs.in
+  port: 80
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: jjkm.zem.indevs.in
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 62
+  server: nnm.ae1.us.ci
+  port: 80
+  type: vmess
+  uuid: 4c205c81-5694-43fe-a287-af563a2ebc05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /djA07iUsSp0K2Fo4gds7cXpDB5nO5
+  ws-headers:
+    Host: nnm.ae1.us.ci
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 64
+  server: v24.hdacd.com
+  port: 30824
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 67
+  server: dvgt.zem.indevs.in
+  port: 80
+  type: vmess
+  uuid: c558328b-eb46-424c-b9e0-574770f0b072
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /7sOz0p4SzU1D6XNC0BXGtJ
+  ws-headers:
+    Host: dvgt.zem.indevs.in
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 68
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
+  ws-headers:
+    Host: 2001:bc8:32d7:302::10
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 72
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: ?ed=2048
+  ws-headers:
+    Host: 2001:bc8:32d7:302::10
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 75
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?ed=2048@V2Ray_hiddify10--https://t.me/V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--V2Ray_hiddify10--https://t.me/V2Ray_hiddify10
+  ws-headers:
+    Host: 2001:bc8:32d7:302::10
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 79
+  server: gtm1.ktmwan.net
+  port: 12883
+  type: vmess
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: gtm1.ktmwan.net
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 83
+  server: 2001:bc8:32d7:302::15
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  ws-headers:
+    Host: TURK.NET
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 84
+  server: 2001:bc8:32d7:302::11
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  ws-headers:
+    Host: TABRIZ.NET
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 85
+  server: 2001:bc8:32d7:302::17
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  ws-headers:
+    Host: AZERB.NET
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 87
+  server: 2001:bc8:32d7:302::14
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+  ws-headers:
+    Host: TABRIZ.NET
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 88
+  server: 2001:bc8:32d7:302::10
+  port: 44579
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+  ws-headers:
+    Host: 2001:bc8:32d7:302::10
   udp: true
 proxy-groups:
 - name: 🚀全球代理
@@ -3152,13 +2710,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
 - name: 🟢手动选择
@@ -3249,13 +2810,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3280,13 +2844,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3311,13 +2878,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3342,13 +2912,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3373,13 +2946,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3404,13 +2980,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3435,13 +3014,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3466,13 +3048,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3497,13 +3082,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3528,13 +3116,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3559,13 +3150,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3590,13 +3184,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3621,13 +3218,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3652,13 +3252,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3683,13 +3286,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3714,13 +3320,16 @@ proxy-groups:
   - 🇬🇷希腊自动
   - 🇭🇰香港自动
   - 🇮🇪爱尔兰自动
+  - 🇮🇳印度自动
   - 🇮🇷伊朗自动
   - 🇯🇵日本自动
   - 🇰🇷韩国自动
   - 🇱🇻拉脱维亚自动
+  - 🇲🇾马来西亚自动
   - 🇳🇱荷兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
+  - 🇸🇸南苏丹自动
   - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
@@ -3764,6 +3373,18 @@ proxy-groups:
   type: url-test
   include-all: true
   filter: (?i)(?:🇷🇺|(?:^|[\s_-])(RU)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*RU(?=$|[\s_-])|俄罗斯|Russian Federation|RussianFederation)
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 1
+  strategy: consistent-hashing
+  lazy: true
+  timeout: 5000
+  max-failed-times: 5
+  hidden: true
+- name: 🇮🇳印度自动
+  type: url-test
+  include-all: true
+  filter: (?i)(?:🇮🇳|(?:^|[\s_-])(IN)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*IN(?=$|[\s_-])|印度|India)
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 1
@@ -3940,6 +3561,18 @@ proxy-groups:
   timeout: 5000
   max-failed-times: 5
   hidden: true
+- name: 🇲🇾马来西亚自动
+  type: url-test
+  include-all: true
+  filter: (?i)(?:🇲🇾|(?:^|[\s_-])(MY)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*MY(?=$|[\s_-])|马来西亚|Malaysia)
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 1
+  strategy: consistent-hashing
+  lazy: true
+  timeout: 5000
+  max-failed-times: 5
+  hidden: true
 - name: 🇱🇻拉脱维亚自动
   type: url-test
   include-all: true
@@ -3980,6 +3613,18 @@ proxy-groups:
   type: url-test
   include-all: true
   filter: (?i)(?:🇦🇿|(?:^|[\s_-])(AZ)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*AZ(?=$|[\s_-])|阿塞拜疆|Azerbaijan)
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 1
+  strategy: consistent-hashing
+  lazy: true
+  timeout: 5000
+  max-failed-times: 5
+  hidden: true
+- name: 🇸🇸南苏丹自动
+  type: url-test
+  include-all: true
+  filter: (?i)(?:🇸🇸|(?:^|[\s_-])(SS)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*SS(?=$|[\s_-])|南苏丹|South Sudan|SouthSudan)
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 1
