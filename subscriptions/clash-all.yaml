@@ -1684,113 +1684,106 @@ proxies:
   tls: false
   skip-cert-verify: false
 - name: 🇭🇰 香港3|@stairnode
-  server: 13.112.42.244
+  server: 54.199.253.251
   port: 4856
   type: trojan
   password: 64a59181551b5773e390bd717a7b7c06
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇭🇰 香港4|@stairnode
-  server: 54.150.211.34
-  port: 1491
+  server: 43.198.227.190
+  port: 54548
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
 - name: 🇭🇰 香港5|@stairnode
-  server: 13.113.247.215
-  port: 2399
+  server: 18.163.116.51
+  port: 504
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
 - name: 🇯🇵 日本|@stairnode
-  server: 54.150.211.34
-  port: 26378
+  server: 54.250.16.92
+  port: 2595
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
 - name: 🇯🇵 日本2|@stairnode
-  server: 160.16.63.16
+  server: 13.192.169.14
   port: 3423
   type: trojan
   password: 64a59181551b5773e390bd717a7b7c06
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇯🇵 日本3|@stairnode
-  server: 160.16.214.104
+  server: 153.121.45.139
   port: 3423
   type: trojan
   password: 64a59181551b5773e390bd717a7b7c06
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇸🇬 新加坡|@stairnode
-  server: 52.193.253.196
+  server: 52.197.219.10
   port: 3901
   type: trojan
   password: 64a59181551b5773e390bd717a7b7c06
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇸🇬 新加坡2|@stairnode
-  server: 3.113.29.187
-  port: 3901
+  server: 160.16.132.38
+  port: 3419
   type: trojan
   password: 64a59181551b5773e390bd717a7b7c06
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇸🇬 新加坡3|@stairnode
-  server: 57.180.245.83
-  port: 381
+  server: 43.198.227.190
+  port: 15363
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
 - name: 🇺🇸 美国|@stairnode
-  server: 160.16.89.176
-  port: 1281
-  type: trojan
-  password: 64a59181551b5773e390bd717a7b7c06
-  sni: www.nintendogames.net
-  skip-cert-verify: false
-- name: 🇺🇸 美国2|@stairnode
-  server: 52.192.108.21
+  server: 54.150.231.83
   port: 4920
   type: trojan
   password: 64a59181551b5773e390bd717a7b7c06
   sni: www.nintendogames.net
   skip-cert-verify: false
+- name: 🇺🇸 美国2|@stairnode
+  server: 54.238.209.205
+  port: 1281
+  type: trojan
+  password: 64a59181551b5773e390bd717a7b7c06
+  sni: www.nintendogames.net
+  skip-cert-verify: false
 - name: 🇺🇸 美国3|@stairnode
-  server: 43.199.42.6
-  port: 23287
+  server: 43.198.227.190
+  port: 50446
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
 - name: 🇮🇳 印度|@stairnode
-  server: board-02.ddnskunlun.com
-  port: 11971
+  server: board-04.ddnskunlun.com
+  port: 11973
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇹🇼 台湾|@stairnode
-  server: ipv6-tw03.cnddns.com
-  port: 16811
+- name: 🇺🇸 美国4|@stairnode
+  server: select-us.ddnskunlun.com
+  port: 9028
   type: vmess
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-- name: 🇯🇵 日本4|@stairnode
-  server: 05.tokyometropolis.kiev.ua
-  port: 2053
-  type: trojan
-  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-  sni: 45.32.28.232
   skip-cert-verify: false
 - name: 🇺🇸_US_美国->🇦🇹_AT_奥地利
   type: vless
@@ -2446,7 +2439,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
 - name: 🟢手动选择
   type: select
@@ -2549,7 +2541,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 💬 OpenAi
@@ -2586,7 +2577,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📹 油管视频
@@ -2623,7 +2613,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🎥 奈飞视频
@@ -2660,7 +2649,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📺 巴哈姆特
@@ -2697,7 +2685,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📺 哔哩哔哩东南亚
@@ -2734,7 +2721,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📺 哔哩哔哩
@@ -2771,7 +2757,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🌍 国外媒体
@@ -2808,7 +2793,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🌏 国内媒体
@@ -2845,7 +2829,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 📢 谷歌FCM
@@ -2882,7 +2865,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: Ⓜ️ 微软Bing
@@ -2919,7 +2901,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: Ⓜ️ 微软云盘
@@ -2956,7 +2937,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: Ⓜ️ 微软服务
@@ -2993,7 +2973,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🍎 苹果服务
@@ -3030,7 +3009,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🎮 游戏平台
@@ -3067,7 +3045,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🎶 网易音乐
@@ -3104,7 +3081,6 @@ proxy-groups:
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇷土耳其自动
-  - 🇹🇼台湾自动
   - 🇺🇸美国自动
   include-all: true
 - name: 🇺🇸美国自动
@@ -3351,18 +3327,6 @@ proxy-groups:
   type: url-test
   include-all: true
   filter: (?i)(?:🇸🇬|(?:^|[\s_-])(SG)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*SG(?=$|[\s_-])|新加坡|Singapore)
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 1
-  strategy: consistent-hashing
-  lazy: true
-  timeout: 5000
-  max-failed-times: 5
-  hidden: true
-- name: 🇹🇼台湾自动
-  type: url-test
-  include-all: true
-  filter: (?i)(?:🇹🇼|(?:^|[\s_-])(TW)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*TW(?=$|[\s_-])|台湾|Taiwan|Tai wan)
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 1
