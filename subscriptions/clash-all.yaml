@@ -1684,107 +1684,89 @@ proxies:
   tls: false
   skip-cert-verify: false
 - name: 🇭🇰 香港3|@stairnode
-  server: 13.231.143.120
-  port: 2255
+  server: 52.69.221.238
+  port: 4856
   type: trojan
   password: 262f1d150049457ac1d6e66b020fa980
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇭🇰 香港4|@stairnode
-  server: 43.198.101.173
-  port: 504
+  server: 3.112.5.11
+  port: 2399
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
 - name: 🇭🇰 香港5|@stairnode
-  server: 13.115.229.23
-  port: 445
+  server: 95.40.65.207
+  port: 54548
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
 - name: 🇯🇵 日本|@stairnode
-  server: 13.231.58.134
-  port: 26378
+  server: 52.194.205.115
+  port: 2762
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
 - name: 🇯🇵 日本2|@stairnode
-  server: 160.16.231.103
+  server: 153.121.70.134
   port: 400
   type: trojan
   password: 262f1d150049457ac1d6e66b020fa980
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇯🇵 日本3|@stairnode
-  server: 54.250.241.85
+  server: 153.121.38.213
   port: 3423
   type: trojan
   password: 262f1d150049457ac1d6e66b020fa980
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇸🇬 新加坡|@stairnode
-  server: 153.121.65.107
+  server: 160.16.150.76
   port: 3419
   type: trojan
   password: 262f1d150049457ac1d6e66b020fa980
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇸🇬 新加坡2|@stairnode
-  server: 35.77.90.248
-  port: 3901
+  server: 52.193.121.51
+  port: 3419
   type: trojan
   password: 262f1d150049457ac1d6e66b020fa980
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇸🇬 新加坡3|@stairnode
-  server: 16.163.102.116
-  port: 52951
+  server: 43.198.13.210
+  port: 41973
   type: trojan
   password: BxceQaOe
   sni: t.me%252Fripaojiedian
   skip-cert-verify: true
 - name: 🇺🇸 美国|@stairnode
-  server: 153.121.65.107
+  server: 160.16.130.21
   port: 4920
   type: trojan
   password: 262f1d150049457ac1d6e66b020fa980
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇺🇸 美国2|@stairnode
-  server: 153.121.65.107
-  port: 1281
+  server: 160.16.124.17
+  port: 4920
   type: trojan
   password: 262f1d150049457ac1d6e66b020fa980
   sni: www.nintendogames.net
   skip-cert-verify: false
 - name: 🇺🇸 美国3|@stairnode
-  server: 43.198.101.173
-  port: 45947
+  server: 54.46.4.240
+  port: 38780
   type: trojan
   password: BxceQaOe
   sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-- name: 🇺🇸 美国4|@stairnode
-  server: select-us.ddnskunlun.com
-  port: 9027
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇵🇱 波兰|@stairnode
-  server: board-02.ddnskunlun.com
-  port: 11885
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
 - name: 🇺🇸_US_美国->🇦🇹_AT_奥地利
   type: vless
   server: 152.53.116.71
@@ -2746,7 +2728,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -2846,7 +2827,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -2880,7 +2860,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -2914,7 +2893,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -2948,7 +2926,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -2982,7 +2959,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3016,7 +2992,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3050,7 +3025,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3084,7 +3058,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3118,7 +3091,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3152,7 +3124,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3186,7 +3157,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3220,7 +3190,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3254,7 +3223,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3288,7 +3256,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3322,7 +3289,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3356,7 +3322,6 @@ proxy-groups:
   - 🇱🇻拉脱维亚自动
   - 🇳🇱荷兰自动
   - 🇳🇿新西兰自动
-  - 🇵🇱波兰自动
   - 🇷🇺俄罗斯自动
   - 🇸🇬新加坡自动
   - 🇹🇼台湾自动
@@ -3450,18 +3415,6 @@ proxy-groups:
   type: url-test
   include-all: true
   filter: (?i)(?:🇦🇺|(?:^|[\s_-])(AU)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*AU(?=$|[\s_-])|澳大利亚|Australia)
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 1
-  strategy: consistent-hashing
-  lazy: true
-  timeout: 5000
-  max-failed-times: 5
-  hidden: true
-- name: 🇵🇱波兰自动
-  type: url-test
-  include-all: true
-  filter: (?i)(?:🇵🇱|(?:^|[\s_-])(PL)(?:(?=$|[\s_-])|(?:[-_0-9]+(?=$|[\s_-])))|(?:^|[\s_-])[-_0-9]*PL(?=$|[\s_-])|波兰|Poland)
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 1
